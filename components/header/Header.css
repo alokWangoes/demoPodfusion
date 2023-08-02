@@ -2,3 +2,28 @@
     width: 55%;
     display: inline-flex;
 }
+.top-wrp {
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding: 2px 33px;
+    background: linear-gradient(to right, rgba(250,210,225,1), rgba(220,180,245,1))
+}
+.main-wrp .row {
+    align-items: center;
+}
+.main-wrp{
+    padding: 30px 0px;
+}
+.flag-wrp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flag-wrp h4 {
+    font-size: 1rem;
+    color: #fff;
+    margin-bottom: 0px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
