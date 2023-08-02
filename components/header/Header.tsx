@@ -2,7 +2,7 @@ import "./Header.css";
 const Header = () => {
   return (
     <>
-      <div className="container main-wrp">
+      <div className="">
         <div className="row">
           <div className="col-md-3 col-sm-12 col-xl-3">
             <div className="logo-img">

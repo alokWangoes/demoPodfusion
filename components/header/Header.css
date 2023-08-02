@@ -12,10 +12,16 @@
 .main-wrp .row {
     align-items: center;
 }
-.main-wrp{
+.col-md-3.col-sm-12.col-xl-3.right-section {
+    display: flex;
+    justify-content: flex-end;
+}
+.main-wrp {
     padding: 30px 0px;
-    background-image: url('../../public/glow.svg');
+    background-image: url(/_next/static/media/glow.f9b035c1.svg);
     background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 .flag-wrp {
     display: flex;
@@ -31,7 +37,7 @@
 }
 .button {
     padding: 12px 27px;
-    border-radius: 23px;
+    border-radius: 13px;
     margin-left: 25px;
     text-decoration: none;
     width: 190px;
