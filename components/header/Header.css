@@ -50,3 +50,23 @@
 body{
     font-family: 'Aclonica', sans-serif !important;
 }
+.bottom-wrp.col-md-12.col-xl-12 {
+    display: flex;
+    justify-content: center;
+}
+ul{
+    margin-bottom: 0px;
+}
+.bottom-wrp li {
+    list-style-type: none;
+    display: inline-flex;
+    margin-right: 48px;
+}
+.bottom-wrp li a{
+    color: #3D318A;
+    font-size: 16px;
+
+}
+a{
+    text-decoration: none;
+}

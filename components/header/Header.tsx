@@ -30,6 +30,18 @@ const Header= () =>{
                   </div>
                 </div>
             </div>
+            <div className="row">
+            <div className="bottom-wrp col-md-12 col-xl-12">
+                    <ul>
+                      <li><a href="#">Home</a></li>
+                      <li><a href="#">Blog</a></li>
+                      <li><a href="#">FAQ</a></li>
+                      <li><a href="#">How it works</a></li>
+                      <li><a href="#">Pricing</a></li>
+                      <li><a href="#">Products</a></li>
+                    </ul>
+                  </div>
+            </div>
           </div>
         </>
     )
