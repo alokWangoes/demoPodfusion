@@ -13,12 +13,16 @@
     color: #61569F;
     font-size: 26px;
 }
+.banner-content{
+    z-index: 999;
+}
 .banner-image img {
     width: 70%;
 }
 .banner-image {
     display: flex;
     justify-content: end;
+    z-index: 999;
 }
 .banner-section{
     padding: 60px 0px;
