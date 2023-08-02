@@ -1,6 +1,7 @@
 .banner-content span {
     font-family: 'Chela One', cursive;
     font-weight: bold;
+    color: #3D318A;
 }
 .banner-content h2 {
     font-size: 4rem;
@@ -21,8 +22,6 @@
 }
 .banner-section{
     padding: 60px 0px;
-    background-image: url('../../public/Vector-2.png');
-    background-size: cover;
 }
 .banner-btn {
     border: none;
@@ -30,5 +29,5 @@
     color: #fff;
     border-radius: 15px;
     box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.50), 1px 1px 2px 0px rgba(0, 0, 0, 0.48);
-    background: linear-gradient(180deg, #8981B8 45.24%, rgba(173, 127, 177, 0.80) 61.32%, rgba(214, 157, 174, 0.00) 96.36%);
+    background: linear-gradient(180deg, #8981B8 40.24%, rgba(173, 127, 177, 0.80) 66.32%, rgba(214, 157, 174, 0.40) 98.36%);
 }

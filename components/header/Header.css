@@ -2,6 +2,18 @@
     width: 80%;
     display: inline-flex;
 }
+.logo-img {
+    position: relative;
+}
+/* .logo-img:before{
+    content: "";
+    position: absolute;
+    background-image: url('../../public/Ellipse-28-new.png');
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+} */
 .top-wrp {
     border-radius: 10px;
     display: flex;
@@ -18,10 +30,36 @@
 }
 .main-wrp {
     padding: 30px 0px;
-    background-image: url(/_next/static/media/glow.f9b035c1.svg);
+    background-image: url('../../public/glow.svg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    position: relative;
+}
+/* .main-wrp:after {
+    background-image: url(/_next/static/media/slider-bg.819285db.png);
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    background-size: cover;
+    background-position: 0px 0px;
+    background-repeat: no-repeat;
+    z-index: -1;
+}  */
+.main-wrp:before {
+    content: "";
+    position: absolute;
+    background-image: url(/_next/static/media/Vector-2.298194b4.png);
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 .flag-wrp {
     display: flex;
