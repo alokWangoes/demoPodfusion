@@ -34,7 +34,7 @@ img{
 }
 .main-wrp {
     padding: 30px 0px;
-    background-image: url('../../public/glow.svg');
+    background-image: url('../../public/slider-svg.svg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;

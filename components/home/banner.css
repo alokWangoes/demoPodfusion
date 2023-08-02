@@ -24,8 +24,12 @@
     justify-content: end;
     z-index: 999;
 }
+button.banner-btn {
+    margin-left: 6rem;
+    margin-top: 4rem;
+}
 .banner-section{
-    padding: 60px 0px;
+    padding: 60px 0px 0px 0px;
 }
 .banner-btn {
     border: none;
