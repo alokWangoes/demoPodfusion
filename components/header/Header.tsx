@@ -19,7 +19,7 @@ const Header = () => {
               <div className="flag-wrp">
                 <img src="/Flags.png" alt="flag" />
                 <h4>EN</h4>
-                <img src="/flat-color-icons_settings.png" alt="icon-settign" />
+                <img src="/flat-color-icons_settings.svg" alt="icon-settign" />
               </div>
             </div>
           </div>
@@ -49,7 +49,7 @@ const Header = () => {
               </li>
               <li>
                 <a href="#">How it works</a>
-                <img src="/flat-color-icons_settings.png" alt="icon-settign" />
+                <img src="/flat-color-icons_settings.svg" alt="icon-settign" />
               </li>
               <li>
                 <a href="#">Pricing</a>
