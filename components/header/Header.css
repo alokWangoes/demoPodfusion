@@ -1,5 +1,5 @@
 .logo-img img {
-    width: 55%;
+    width: 80%;
     display: inline-flex;
 }
 .top-wrp {
@@ -29,12 +29,12 @@
     margin-left: 10px;
     margin-right: 10px;
 }
-.button{
-    padding: 20px 29px;
+.button {
+    padding: 12px 27px;
     border-radius: 23px;
     margin-left: 25px;
     text-decoration: none;
-    width: 209px;
+    width: 190px;
     text-align: center;
     color: #fff;
     background: linear-gradient(0deg, rgba(255, 255, 255, 0.40) 0%, rgba(255, 255, 255, 0.40) 100%), linear-gradient(270deg, rgba(255, 255, 255, 0.15) 0%, rgba(255, 0, 31, 0.15) 100%), linear-gradient(231deg, rgba(255, 255, 255, 0.15) 0%, rgba(255, 0, 184, 0.15) 100%), linear-gradient(136deg, rgba(255, 255, 255, 0.15) 0%, rgba(143, 0, 255, 0.15) 100%), linear-gradient(127deg, rgba(255, 255, 255, 0.15) 0%, rgba(36, 0, 255, 0.15) 100%), linear-gradient(216deg, rgba(255, 255, 255, 0.15) 0%, rgba(0, 255, 163, 0.15) 100%), linear-gradient(270deg, rgba(255, 255, 255, 0.15) 0%, rgba(250, 255, 0, 0.15) 100%), linear-gradient(270deg, rgba(255, 255, 255, 0.15) 0%, rgba(255, 122, 0, 0.15) 100%), rgba(255, 0, 77, 0.60);
@@ -57,10 +57,13 @@ body{
 ul{
     margin-bottom: 0px;
 }
+.bottom-wrp ul {
+    padding-left: 0px;
+}
 .bottom-wrp li {
     list-style-type: none;
     display: inline-flex;
-    margin-right: 48px;
+    margin-right: 44px;
 }
 .bottom-wrp li a{
     color: #3D318A;
