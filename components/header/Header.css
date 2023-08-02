@@ -36,6 +36,7 @@
     background-position: center;
     position: relative;
 }
+<<<<<<< HEAD
 /* .main-wrp:after {
     background-image: url(/_next/static/media/slider-bg.819285db.png);
     content: "";
@@ -49,6 +50,8 @@
     background-repeat: no-repeat;
     z-index: -1;
 }  */
+=======
+>>>>>>> 1ae72a60d1ff496329893a1fd37be14c4649d1c1
 .main-wrp:before {
     content: "";
     position: absolute;
