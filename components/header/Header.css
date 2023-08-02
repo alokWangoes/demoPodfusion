@@ -98,10 +98,10 @@ ul{
     list-style-type: none;
     display: inline-flex;
 }
-.bottom-wrp li a{
+.bottom-wrp li a {
     color: #3D318A;
     font-size: 16px;
-
+    font-family: 'Libre Baskerville', serif;
 }
 a{
     text-decoration: none;
@@ -111,4 +111,11 @@ a.button-primary {
     text-decoration: underline;
     letter-spacing: 1.2px;
     color: #3D318A;
+}
+.bottom-wrp li img {
+    width: 24px;
+    margin-left: 6px;
+}
+.bottom-wrp li:last-child {
+    padding-right: 25px;
 }

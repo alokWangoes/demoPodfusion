@@ -49,6 +49,7 @@ const Header = () => {
               </li>
               <li>
                 <a href="#">How it works</a>
+                <img src="/flat-color-icons_settings.png" alt="icon-settign" />
               </li>
               <li>
                 <a href="#">Pricing</a>
