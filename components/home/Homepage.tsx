@@ -6,7 +6,6 @@ const Homepage = () => {
 <Header/>
 
 
-        <h1> Hellow Kobe </h1>
         
     
         </>
