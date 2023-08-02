@@ -1,9 +1,7 @@
-const Homepage = () => {
+const Footerbox = () =>{
     return (
         <>
-
-
-
+        
         
         
         
@@ -12,4 +10,4 @@ const Homepage = () => {
 }
 
 
-export default Homepage ; 
+export default Footerbox ; 
