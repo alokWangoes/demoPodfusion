@@ -27,3 +27,20 @@
     margin-left: 10px;
     margin-right: 10px;
 }
+.button{
+    padding: 20px 29px;
+    border-radius: 23px;
+    margin-left: 25px;
+    text-decoration: none;
+    width: 209px;
+    text-align: center;
+    color: #fff;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.40) 0%, rgba(255, 255, 255, 0.40) 100%), linear-gradient(270deg, rgba(255, 255, 255, 0.15) 0%, rgba(255, 0, 31, 0.15) 100%), linear-gradient(231deg, rgba(255, 255, 255, 0.15) 0%, rgba(255, 0, 184, 0.15) 100%), linear-gradient(136deg, rgba(255, 255, 255, 0.15) 0%, rgba(143, 0, 255, 0.15) 100%), linear-gradient(127deg, rgba(255, 255, 255, 0.15) 0%, rgba(36, 0, 255, 0.15) 100%), linear-gradient(216deg, rgba(255, 255, 255, 0.15) 0%, rgba(0, 255, 163, 0.15) 100%), linear-gradient(270deg, rgba(255, 255, 255, 0.15) 0%, rgba(250, 255, 0, 0.15) 100%), linear-gradient(270deg, rgba(255, 255, 255, 0.15) 0%, rgba(255, 122, 0, 0.15) 100%), rgba(255, 0, 77, 0.60);
+    box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.50), 1px 1px 2px 0px rgba(0, 0, 0, 0.48);
+}
+.btn-group {
+    align-items: center;
+}
+body{
+    font-family: 'Aclonica', sans-serif !important;
+}

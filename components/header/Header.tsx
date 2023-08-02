@@ -23,9 +23,9 @@ const Header= () =>{
                     </div>
                   </div>
                 </div>
-                <div className="col-md-3 col-sm-12 col-xl-3">
+                <div className="col-md-3 col-sm-12 col-xl-3 right-section">
                   <div className="btn-group">
-                    <a href="#" className="button button-primary">Login</a>
+                    <a href="#" className="button-primary">Login</a>
                     <a href="#" className="button">Sign Up</a>
                   </div>
                 </div>
