@@ -59,11 +59,12 @@ ul{
 }
 .bottom-wrp ul {
     padding-left: 0px;
+    display: flex;
+    justify-content: space-between;
 }
 .bottom-wrp li {
     list-style-type: none;
     display: inline-flex;
-    margin-right: 44px;
 }
 .bottom-wrp li a{
     color: #3D318A;
