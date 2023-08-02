@@ -26,7 +26,7 @@ const Header = () => {
           <div className="col-md-3 col-sm-12 col-xl-3 right-section">
             <div className="btn-group">
               <a href="#" className="button-primary">
-                Login
+                Log in
               </a>
               <a href="#" className="button">
                 Sign Up

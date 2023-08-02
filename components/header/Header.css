@@ -113,3 +113,8 @@ ul{
 a{
     text-decoration: none;
 }
+a.button-primary {
+    text-transform: uppercase;
+    text-decoration: underline;
+    letter-spacing: 1.2px;
+}

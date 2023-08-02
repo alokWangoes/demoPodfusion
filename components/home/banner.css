@@ -5,8 +5,9 @@
 }
 .banner-content h2 {
     font-size: 4rem;
-    font-family: 'Libre Baskerville', serif;
+    font-family: 'Baskerville', serif;
     font-weight: normal;
+    margin-bottom: 20px;
 }
 .common-content {
     font-family: 'Roboto serif';
@@ -15,6 +16,7 @@
 }
 .banner-content{
     z-index: 999;
+    padding-right: 35px;
 }
 .banner-image img {
     width: 70%;
