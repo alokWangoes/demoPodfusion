@@ -4,14 +4,10 @@ import Banner from "./Banner";
 const Homepage = () => {
   return (
     <>
-    <div className="main-wrp">
-
-    <div className="container">
-      <Header />
-      <Banner/>
-
-    </div>
-    </div>
+      <div className="main-wrp">
+          <Header />
+          <Banner />
+      </div>
     </>
   );
 };

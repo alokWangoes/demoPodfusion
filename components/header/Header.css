@@ -22,6 +22,19 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    position: relative;
+}
+.main-wrp:before {
+    content: "";
+    position: absolute;
+    background-image: url(/_next/static/media/Vector-2.298194b4.png);
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 .flag-wrp {
     display: flex;

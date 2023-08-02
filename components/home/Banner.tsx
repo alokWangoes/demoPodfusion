@@ -2,7 +2,7 @@ import "./banner.css"
 const Banner = () => {
     return(
         <>
-        <div className="banner-section">
+        <div className="banner-section container">
 
         <div className="row">
             <div className="col-md-6 col-xl-6 col-sm-12">
