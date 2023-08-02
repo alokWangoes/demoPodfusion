@@ -1,6 +1,9 @@
 .logo-img img {
-    width: 80%;
     display: inline-flex;
+}
+img{
+    width: 100%;
+    max-width: 100%;
 }
 .logo-img {
     position: relative;
@@ -17,9 +20,10 @@
 .top-wrp {
     border-radius: 10px;
     display: flex;
+    margin-top: 28px;
     justify-content: space-between;
     padding: 2px 33px;
-    background: linear-gradient(to right, rgba(250,210,225,1), rgba(220,180,245,1))
+    background: linear-gradient(to right, rgba(250,210,225,1), rgba(220,180,245,1));
 }
 .main-wrp .row {
     align-items: center;
@@ -77,6 +81,10 @@
 }
 .btn-group {
     align-items: center;
+    margin-top: 25px;
+}
+.bottom-wrp.col-md-6.col-xl-6 {
+    margin-top: 20px;
 }
 body{
     font-family: 'Aclonica', sans-serif !important;
