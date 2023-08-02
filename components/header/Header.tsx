@@ -2,7 +2,7 @@ import "./Header.css";
 const Header = () => {
   return (
     <>
-      <div className="container">
+      <div className="container" style={{zIndex: "999"}}>
         <div className="row">
           <div className="col-md-3 col-sm-12 col-xl-3">
             <div className="logo-img">
@@ -24,14 +24,14 @@ const Header = () => {
             </div>
           </div>
           <div className="col-md-3 col-sm-12 col-xl-3 right-section">
-            <div className="btn-group">
+            {/* <div className="btn-group"> */}
               <a href="#" className="button-primary">
                 Log in
               </a>
               <a href="#" className="button">
                 Sign Up
               </a>
-            </div>
+            {/* </div> */}
           </div>
         </div>
         <div className="row">

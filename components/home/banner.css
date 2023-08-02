@@ -14,9 +14,10 @@
     color: #61569F;
     font-size: 26px;
 }
-.banner-content{
+.banner-content {
     z-index: 999;
     padding-right: 35px;
+    padding: 50px 35px 0px 0px;
 }
 .banner-image img {
     width: 70%;
