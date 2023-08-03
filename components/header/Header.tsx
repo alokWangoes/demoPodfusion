@@ -25,18 +25,10 @@ const Header = () => {
             </div>
           </div>
           <div className="col-md-3 col-sm-12 col-xl-3 right-section">
-<<<<<<< HEAD
-            <div className="btn-group">
-              <Link href="/login">
-                <span className="button-primary">Login</span>
-              </Link>
-
-=======
             {/* <div className="btn-group"> */}
               <a href="#" className="button-primary">
                 Log in
               </a>
->>>>>>> f438341690e3ba403fc9f8b848e6f03a0f18df18
               <a href="#" className="button">
                 SIGN UP
               </a>

@@ -13,13 +13,9 @@ const Homepage = () => {
           <Header />
           <Banner />
       </div>
-<<<<<<< HEAD
       <Subscribe/>
       {/* <Footerbox  /> */}
 
-=======
-          <Mainsection/>
->>>>>>> f438341690e3ba403fc9f8b848e6f03a0f18df18
     </>
   );
 };
