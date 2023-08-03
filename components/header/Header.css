@@ -65,6 +65,7 @@ img{
     text-decoration: none;
     text-align: center;
     color: #fff;
+    font-family: 'Aclonica', sans-serif !important;
     background: linear-gradient(0deg, rgba(255, 255, 255, 0.40) 0%, rgba(255, 255, 255, 0.40) 100%), linear-gradient(270deg, rgba(255, 255, 255, 0.15) 0%, rgba(255, 0, 31, 0.15) 100%), linear-gradient(231deg, rgba(255, 255, 255, 0.15) 0%, rgba(255, 0, 184, 0.15) 100%), linear-gradient(136deg, rgba(255, 255, 255, 0.15) 0%, rgba(143, 0, 255, 0.15) 100%), linear-gradient(127deg, rgba(255, 255, 255, 0.15) 0%, rgba(36, 0, 255, 0.15) 100%), linear-gradient(216deg, rgba(255, 255, 255, 0.15) 0%, rgba(0, 255, 163, 0.15) 100%), linear-gradient(270deg, rgba(255, 255, 255, 0.15) 0%, rgba(250, 255, 0, 0.15) 100%), linear-gradient(270deg, rgba(255, 255, 255, 0.15) 0%, rgba(255, 122, 0, 0.15) 100%), rgba(255, 0, 77, 0.60);
     box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.50), 1px 1px 2px 0px rgba(0, 0, 0, 0.48);
 }
@@ -72,15 +73,11 @@ img{
     width: 22px;
     margin-right: 5px;
 }
-/* .btn-group {
-    align-items: center;
-    margin-top: 25px;
-} */
 .bottom-wrp.col-md-6.col-xl-6 {
     margin-top: 20px;
 }
 body{
-    font-family: 'Aclonica', sans-serif !important;
+    /* font-family: 'Aclonica', sans-serif !important; */
 }
 .bottom-wrp.col-md-12.col-xl-12 {
     display: flex;
@@ -111,6 +108,7 @@ a.button-primary {
     text-decoration: underline;
     letter-spacing: 1.2px;
     color: #3D318A;
+    font-family: 'Aclonica', sans-serif !important;
 }
 .bottom-wrp li img {
     width: 24px;

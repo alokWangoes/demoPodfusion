@@ -1,6 +1,7 @@
 import Footerbox from "../footer/Footerbox";
 import Header from "../header/Header";
 import Banner from "./Banner";
+import Mainsection from "./Mainsection";
 
 const Homepage = () => {
   return (
@@ -9,6 +10,7 @@ const Homepage = () => {
           <Header />
           <Banner />
       </div>
+          <Mainsection/>
     </>
   );
 };

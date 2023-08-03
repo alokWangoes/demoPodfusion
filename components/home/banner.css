@@ -36,8 +36,9 @@ button.banner-btn {
 }
 .banner-btn {
     border: none;
-    padding: 12px 38px;
+    padding: 15px 55px;
     color: #fff;
+    font-family: 'Aclonica', sans-serif !important;
     border-radius: 15px;
     box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.50), 1px 1px 2px 0px rgba(0, 0, 0, 0.48);
     background: linear-gradient(180deg, #8981B8 40.24%, rgba(173, 127, 177, 0.80) 66.32%, rgba(214, 157, 174, 0.40) 98.36%);
