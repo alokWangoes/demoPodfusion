@@ -8,15 +8,7 @@ img{
 .logo-img {
     position: relative;
 }
-/* .logo-img:before{
-    content: "";
-    position: absolute;
-    background-image: url('../../public/Ellipse-28-new.png');
-    height: 100%;
-    width: 100%;
-    top: 0;
-    left: 0;
-} */
+    
 .top-wrp {
     border-radius: 10px;
     display: flex;

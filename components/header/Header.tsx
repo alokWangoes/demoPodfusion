@@ -1,3 +1,4 @@
+import Link from "next/link";
 import "./Header.css";
 const Header = () => {
   return (
@@ -25,11 +26,12 @@ const Header = () => {
           </div>
           <div className="col-md-3 col-sm-12 col-xl-3 right-section">
             <div className="btn-group">
-              <a href="#" className="button-primary">
-                Login
-              </a>
+              <Link href="/login">
+                <span className="button-primary">Login</span>
+              </Link>
+
               <a href="#" className="button">
-                Sign Up
+                SIGN UP
               </a>
             </div>
           </div>
