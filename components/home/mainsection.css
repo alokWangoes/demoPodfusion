@@ -1,0 +1,37 @@
+.main h3 {
+    font-size: 45px;
+    line-height: 50px;
+    display: flex;
+    text-align: center;
+    color: #61569F;
+    font-family: 'Aclonica', sans-serif !important;
+    justify-content: center;
+    align-items: center;
+}
+h3 img {
+    width: 230px;
+}
+.main-section{
+    background-image: url('../../public/middel.png');
+    background-size: cover;
+    padding: 80px 0px;
+}
+.row.main {
+    margin-bottom: 70px;
+}
+.block-content {
+    background: linear-gradient(186deg, #EAC0CD 0%, rgba(245, 226, 232, 0.82) 36.31%, rgba(255, 255, 255, 0.63) 100%);
+    padding: 30px 31px;
+    border-radius: 0px 0px 30px 30px;
+}
+.block-content h3 {
+    text-align: center;
+    color: #3D318A;
+    font-weight: bold;
+}
+.block-content p {
+    font-family: 'Roboto Serif';
+    color: #52459B;
+    font-size: 20px;
+    text-align: center;
+}

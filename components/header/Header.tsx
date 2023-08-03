@@ -3,7 +3,7 @@ import "./Header.css";
 const Header = () => {
   return (
     <>
-      <div className="container">
+      <div className="container" style={{zIndex: "999"}}>
         <div className="row">
           <div className="col-md-3 col-sm-12 col-xl-3">
             <div className="logo-img">
@@ -20,20 +20,27 @@ const Header = () => {
               <div className="flag-wrp">
                 <img src="/Flags.png" alt="flag" />
                 <h4>EN</h4>
-                <img src="/flat-color-icons_settings.png" alt="icon-settign" />
+                <img src="/flat-color-icons_settings.svg" alt="icon-settign" />
               </div>
             </div>
           </div>
           <div className="col-md-3 col-sm-12 col-xl-3 right-section">
+<<<<<<< HEAD
             <div className="btn-group">
               <Link href="/login">
                 <span className="button-primary">Login</span>
               </Link>
 
+=======
+            {/* <div className="btn-group"> */}
+              <a href="#" className="button-primary">
+                Log in
+              </a>
+>>>>>>> f438341690e3ba403fc9f8b848e6f03a0f18df18
               <a href="#" className="button">
                 SIGN UP
               </a>
-            </div>
+            {/* </div> */}
           </div>
         </div>
         <div className="row">
@@ -51,6 +58,7 @@ const Header = () => {
               </li>
               <li>
                 <a href="#">How it works</a>
+                <img src="/flat-color-icons_settings.svg" alt="icon-settign" />
               </li>
               <li>
                 <a href="#">Pricing</a>

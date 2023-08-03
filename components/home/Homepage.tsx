@@ -4,6 +4,7 @@ import Header from "../header/Header";
 import Subscribe from "../subscribe/Subscribe";
 // import Subscribe from "../subscribe/Subscribe";
 import Banner from "./Banner";
+import Mainsection from "./Mainsection";
 
 const Homepage = () => {
   return (
@@ -12,9 +13,13 @@ const Homepage = () => {
           <Header />
           <Banner />
       </div>
+<<<<<<< HEAD
       <Subscribe/>
       {/* <Footerbox  /> */}
 
+=======
+          <Mainsection/>
+>>>>>>> f438341690e3ba403fc9f8b848e6f03a0f18df18
     </>
   );
 };
