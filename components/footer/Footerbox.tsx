@@ -1,9 +1,10 @@
+"use client";
 import React from "react";
 import "./Footerbox.css";
 const Footerbox = () => {
   return (
-    <div className="footer-container">
-      <div className="footer-container-inner">
+    <div className="container-fluid footer-container">
+      <div className="footer-container-inner container-fluid">
         <div className="footer-logo">
           <img src="/logo.svg" />
         </div>
@@ -39,33 +40,48 @@ const Footerbox = () => {
           </div>
         </div>
       </div>
-      <div className="footer-body">
-        <div className="footer-body-title">
+      <div className="footer-body ">
+        <div className="footer-body-title container-fluid">
           <span>
             Lorem ipsum dolor sit amet consectetur. Luctus tincidunt neque quis
             sit tristique. Elementum a vitae augue condimentum augue ipsum nec.{" "}
           </span>
         </div>
-        <div className="footer-body-list">
-          <span>Home</span>
-          <span>Contact</span>
-          <span>FAQs</span>
-          <span>Pricing</span>
-          <span>Documentation</span>
-        </div>
-        <div className="footer-body-list-etsy">
-          <span>Etsy</span>
-          <span>Walmart</span>
-          <span>eBay</span>
-          <span>Lorem</span>
-        </div>
-        <div className="footer-email-section">
-          <span className="footer-input-title">Please enter your email</span>
-          <input type="email" placeholder="Email" className="footer-input" />
-          <button className="footer-button">SEND</button>
+
+        <div className="container email-tabs">
+          <div className="footer-email-section">
+            <div className="footer-body-list">
+              <span>Home</span>
+              <span>Contact</span>
+              <span>FAQs</span>
+              <span>Pricing</span>
+              <span>Documentation</span>
+            </div>
+            <div className="footer-body-list-etsy">
+              <span>Etsy</span>
+              <span>Walmart</span>
+              <span>eBay</span>
+              <span>Lorem</span>
+            </div>
+          </div>
+
+          <div className="container">
+            <div>
+              <div className="footer-input-btn">
+                <span className="enter-email">Please enter your email</span>
+                <input
+                  type="email"
+                  placeholder="Email"
+                  className="footer-input"
+                />
+                <button className="footer-button">SEND</button>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-      <div className="footer-copyryt">
+
+      <div className="footer-copyryt container-fluid">
         <p className="footer-copyryt-title">
           <span>
             <img

@@ -50,27 +50,29 @@ const Mainsection = () => {
             </div>
           </div>
         </div>
-        <div className="mainsection-body">
-          <div className="main-sec">
-            <div className="mainsection-body-title-wrapper">
-              <span className="mainsection-body-title">
-                Lorem ipsum dolor sit amet consectetur.
-              </span>
-            </div>
+        <div className="container">
+          <div className="mainsection-body">
+            <div className="main-sec">
+              <div className="mainsection-body-title-wrapper">
+                <span className="mainsection-body-title">
+                  Lorem ipsum dolor sit amet consectetur.
+                </span>
+              </div>
 
-            <div className="manin-sec-body">
-              <span className="mainsection-body-content">
-                Lorem ipsum dolor sit amet consectetur. Ante leo odio luctus
-                urna est risus euismod. Semper quis porttitor lorem malesuada
-                nisl a non imperdiet. Fames aenean cursus at netus.
-              </span>
+              <div className="manin-sec-body">
+                <span className="mainsection-body-content">
+                  Lorem ipsum dolor sit amet consectetur. Ante leo odio luctus
+                  urna est risus euismod. Semper quis porttitor lorem malesuada
+                  nisl a non imperdiet. Fames aenean cursus at netus.
+                </span>
+              </div>
+              <div className="main-section-button-div">
+                <button className="main-section-button">SUBSCRIBE</button>
+              </div>
             </div>
-            <div className="main-section-button-div">
-              <button className="main-section-button">SUBSCRIBE</button>
+            <div className="main-sec-image">
+              <img src="/img-2.svg" alt="baniner-img" />
             </div>
-          </div>
-          <div className="main-sec-image">
-            <img src="/img-2.svg" alt="baniner-img" />
           </div>
         </div>
       </div>

@@ -77,7 +77,7 @@ const SubscriptionPlan = () => {
           </p>
         </div>
       </div>
-      <div className="container-fluid">
+      <div className="container">
         <div className="row">
           <div className="col-md-3 col-sm-6 col-xs-12">
             <div className="pricingTable">
@@ -102,7 +102,6 @@ const SubscriptionPlan = () => {
                   magna et amet.
                 </li>
               </ul>
-              <br />
               <br />
               <br />
               <br />
@@ -210,6 +209,7 @@ const SubscriptionPlan = () => {
                 </li>
                 <li>24h support</li>
               </ul>
+              <br />
               <br />
 
               <div className="pricingTable-signup-enterprise">
