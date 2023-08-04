@@ -288,7 +288,7 @@
 
 .pricingTable .pricing-content li {
   padding: 10px 30px 10px 40px;
-  margin: 0 0 10px;
+  margin: 4px 0 10px;
   flex: 1 0 0;
   color: #fff;
   font-family: Roboto Flex;
@@ -296,7 +296,7 @@
   font-style: normal;
   text-align: justify;
   font-weight: 400;
-  line-height: normal;
+  line-height: 15px;
   list-style-type: none;
   background-image: url("../../public/flat-color-icons_settings.svg");
   background-repeat: no-repeat;
@@ -319,7 +319,7 @@
   font-style: normal;
   text-align: justify;
   font-weight: 400;
-  line-height: normal;
+  line-height: 15px;
   list-style-type: none;
   background-image: url("../../public/flat-color-icons_settings.svg");
   background-repeat: no-repeat;
@@ -334,7 +334,7 @@
 
 .pricingTable .pricing-content-third-child li {
   padding: 5px 30px 10px 40px;
-  margin: 0 0 10px;
+  margin: 2px 0px 6px;
   flex: 1 0 0;
   color: #fff;
   font-family: Roboto Flex;
@@ -342,7 +342,7 @@
   font-style: normal;
   text-align: justify;
   font-weight: 400;
-  line-height: normal;
+  line-height: 17px;
   list-style-type: none;
   background-image: url("../../public/flat-color-icons_settings.svg");
   background-repeat: no-repeat;
@@ -351,13 +351,13 @@
 
 .pricingTable .pricing-content-fourth-child {
   display: inline-flex;
-  padding: 0px 10px;
+  padding: 0px 10px 0px 10px;
   flex-direction: column;
 }
 
 .pricingTable .pricing-content-fourth-child li {
   padding: 0px 30px 10px 40px;
-  margin: 0 0 10px;
+  margin: 0 0 9px;
   flex: 1 0 0;
   color: #fff;
   font-family: Roboto Flex;
@@ -365,7 +365,7 @@
   font-style: normal;
   text-align: justify;
   font-weight: 400;
-  line-height: normal;
+  line-height: 15px;
   list-style-type: none;
   background-image: url("../../public/flat-color-icons_settings.svg");
   background-repeat: no-repeat;
@@ -464,7 +464,6 @@
   margin: auto;
   width: 207px;
   height: 49px;
-  margin-top: 16px;
   padding: 20px 25px;
   justify-content: center;
   align-items: center;
@@ -529,7 +528,6 @@
   height: 49px;
   padding: 20px 25px;
   justify-content: center;
-  margin-top: 20px;
   align-items: center;
   gap: 25px;
   flex-shrink: 0;

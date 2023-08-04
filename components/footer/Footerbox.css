@@ -54,7 +54,7 @@
 
 .footer-stay {
   margin-top: 10px;
-  margin-right: 50px;
+  margin-right: 82px;
   width: 174px;
   height: 23px;
   color: #fff;
@@ -106,9 +106,7 @@
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  position: relative;
-  right: 110px;
-  top: 30px;
+  margin-left: 100px;
 }
 
 .footer-body-list-etsy {
@@ -123,9 +121,6 @@
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  position: relative;
-  right: 240px;
-  top: 33px;
 }
 
 .footer-input-title {
@@ -135,16 +130,14 @@
   font-style: normal;
   font-weight: 500;
   line-height: normal;
-  position: relative;
-  right: 342px;
 }
 
 .footer-copyryt {
-  width: 100%;
+  width: 1454px;
   height: 49px;
   padding: 10px 70px 15px 70px;
   background: #fff;
-  margin-top: 133px;
+  margin-top: 152px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -172,8 +165,32 @@
   height: 10.667px;
 }
 
+.email-tabs {
+  display: flex;
+  margin-top: 10px;
+}
+
 .footer-email-section {
-  margin-top: 20px;
+  margin-top: 30px;
+  display: inline-flex;
+  gap: 50px;
+}
+
+.footer-input-btn {
+  display: inline-block;
+  position: absolute;
+  margin-left: 68px;
+}
+
+.footer-input-btn .enter-email {
+  position: relative;
+  top: 22px;
+  color: #3d318a;
+  font-family: Roboto Serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
 }
 
 .footer-input {
@@ -185,8 +202,7 @@
   gap: 300px;
   border-radius: 20px;
   background: linear-gradient(15deg, #fff 49.84%, #fff 100%);
-  position: absolute;
-  right: 170px;
+  margin-top: 28px;
 }
 
 .footer-button {
@@ -201,13 +217,14 @@
   border-radius: 15px;
   height: 61px;
   padding: 20px 25px;
+  position: absolute;
+  top: 50px;
+  right: 0px;
   justify-content: center;
   align-items: center;
   gap: 25px;
   flex: 1 0 0;
-  position: relative;
-  top: 60px;
-  right: 170px;
+
   background: linear-gradient(
       0deg,
       rgba(255, 255, 255, 0.4) 0%,
