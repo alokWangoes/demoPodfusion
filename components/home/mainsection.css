@@ -1,37 +1,121 @@
 .main h3 {
-    font-size: 45px;
-    line-height: 50px;
-    display: flex;
-    text-align: center;
-    color: #61569F;
-    font-family: 'Aclonica', sans-serif !important;
-    justify-content: center;
-    align-items: center;
+  font-size: 45px;
+  line-height: 50px;
+  display: flex;
+  text-align: center;
+  color: #61569f;
+  font-family: "Aclonica", sans-serif !important;
+  justify-content: center;
+  align-items: center;
 }
 h3 img {
-    width: 230px;
+  width: 230px;
 }
-.main-section{
-    background-image: url('../../public/middel.png');
-    background-size: cover;
-    padding: 80px 0px;
+.main-section {
+  background-image: url("../../public/middel.png");
+  background-size: cover;
+  padding: 80px 0px;
 }
 .row.main {
-    margin-bottom: 70px;
+  margin-bottom: 70px;
 }
 .block-content {
-    background: linear-gradient(186deg, #EAC0CD 0%, rgba(245, 226, 232, 0.82) 36.31%, rgba(255, 255, 255, 0.63) 100%);
-    padding: 30px 31px;
-    border-radius: 0px 0px 30px 30px;
+  background: linear-gradient(
+    186deg,
+    #eac0cd 0%,
+    rgba(245, 226, 232, 0.82) 36.31%,
+    rgba(255, 255, 255, 0.63) 100%
+  );
+  padding: 30px 31px;
+  border-radius: 0px 0px 30px 30px;
 }
 .block-content h3 {
-    text-align: center;
-    color: #3D318A;
-    font-weight: bold;
+  text-align: center;
+  color: #3d318a;
+  font-weight: bold;
 }
 .block-content p {
-    font-family: 'Roboto Serif';
-    color: #52459B;
-    font-size: 20px;
-    text-align: center;
+  font-family: "Roboto Serif";
+  color: #52459b;
+  font-size: 20px;
+  text-align: center;
+}
+
+.mainsection-body {
+  width: 1349px;
+  height: 589px;
+  border-radius: 250px;
+  background: linear-gradient(180deg, #eac0cd 0%, #fff 93.75%);
+  margin-left: 100px;
+  margin-top: 120px;
+  display: flex;
+}
+.main-sec {
+  display: flex;
+  flex-direction: column;
+}
+.mainsection-body-title-wrapper {
+  width: 796px;
+  height: 118px;
+  margin-top: 131px;
+  width: 796px;
+  position: relative;
+  left: 82px;
+}
+.mainsection-body-title {
+  color: #3d318a;
+  font-family: Roboto Flex;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.mainsection-body-content {
+  color: #43397c;
+  font-family: Roboto Serif;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: justify;
+}
+.main-section-button {
+  width: 369px;
+  height: 92px;
+  padding: 20px 25px;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  flex-shrink: 0;
+  border-radius: 15px;
+  background: linear-gradient(
+    180deg,
+    #8981b8 45.24%,
+    rgba(173, 127, 177, 0.8) 61.32%,
+    rgba(214, 157, 174, 0) 96.36%
+  );
+  box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.5),
+    1px 1px 2px 0px rgba(0, 0, 0, 0.48);
+  color: var(--white, #fff);
+  font-family: Aclonica;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.main-section-button-div {
+  margin-left: 229px;
+  margin-top: 45px;
+}
+.manin-sec-body {
+  width: 689px;
+  height: 140px;
+  margin-left: 83px;
+  margin-top: 18px;
+}
+.main-sec-image {
+  width: 427px;
+  height: 518px;
+  margin-top: 50px;
+  margin-left: 44px;
 }
