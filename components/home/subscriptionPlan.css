@@ -1,0 +1,274 @@
+ .subscription-plan-container {
+     width: 100%;
+     height: 1200px;
+     flex-shrink: 0;
+     background: #DCB4F5;
+     padding: 80px 0px;
+
+ }
+
+ .subscription-plan-container-background {
+     display: flex;
+     justify-content: space-between;
+ }
+
+
+
+
+ .main-pricing h3 {
+     color: #FFF;
+     width: 1117px;
+     text-align: center;
+     font-family: Aclonica;
+     font-size: 70px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: normal;
+     letter-spacing: 1.05px;
+ }
+
+ .main-pricing p {
+     width: 650px;
+     color: #3D318A;
+     font-family: Roboto Serif;
+     font-size: 30px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: normal;
+     margin-left: 260px;
+ }
+
+ .subscription-types {
+     width: 92px;
+     color: #F8B1C7;
+     text-align: center;
+     font-family: Roboto Serif;
+     font-size: 35px;
+     font-style: normal;
+     font-weight: 500;
+     line-height: normal;
+     border-bottom: 1px solid #F8B1C7;
+ }
+
+
+ .subscription-description {
+
+     position: relative;
+     top: 70px;
+     left: 20px;
+     width: 295px;
+     height: 229px;
+ }
+
+ .subscription-description ul {
+     display: inline-flex;
+     padding: 20px 10px;
+     flex-direction: column;
+     align-items: flex-start;
+     gap: 28px;
+
+ }
+
+
+ .subscription-description ul li {
+     color: #FFF;
+     padding: 0px 35px;
+     list-style-type: none;
+     font-family: Roboto Flex;
+     font-size: 16px;
+     font-style: normal;
+     font-weight: 400;
+     flex: 1 0 0;
+
+     line-height: normal;
+     background-image: url("../../public/flat-color-icons_settings.svg");
+     background-repeat: no-repeat;
+     background-position: 2px;
+ }
+
+
+ .subscription-buy-button {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin-top: 99px;
+     padding: 20px 25px;
+
+ }
+
+ .btn {
+     width: 207px;
+     height: 49px;
+     gap: 25px;
+     flex-shrink: 0;
+     border-radius: 50px;
+     background: linear-gradient(185deg, rgba(150, 182, 255, 0.90) 27.21%, rgba(173, 127, 177, 0.80) 53.61%, rgba(214, 157, 174, 0.00) 96.36%);
+
+     box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.50), 1px 1px 2px 0px rgba(0, 0, 0, 0.48);
+ }
+
+ .btn span {
+     color: var(--white, #FFF);
+     font-family: Aclonica;
+     font-size: 21px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: normal;
+ }
+
+
+
+ .subscription-card-inner-wrapper-best-seller {
+     width: 336px;
+     height: 642px;
+     border-radius: 130px;
+     background: linear-gradient(2deg, rgba(30, 30, 30, 0.40) 2.85%, #3D318A 9.12%, #FFF 100%);
+ }
+
+ .subscription-card-contents-best-seller {
+     display: inline-flex;
+     flex-direction: column;
+     align-items: center;
+     gap: 30px;
+     position: relative;
+     top: 42px;
+     left: 88px;
+
+ }
+
+
+
+ .pricingTable {
+     color: #ED3034;
+     font-family: 'Montserrat', sans-serif;
+     text-align: center;
+     padding: 0 0 30px;
+     border-radius: 130px;
+     background: linear-gradient(2deg, rgba(30, 30, 30, 0.40) 2.85%, #3D318A 9.12%, #FFF 100%);
+     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+     overflow: hidden;
+ }
+
+ .pricingTable .pricingTable-header {
+     padding: 30px 20px 2px;
+     margin: 0px;
+
+ }
+
+ .pricingTable .pricingTable-header .currency {
+     color: #FFF;
+     font-family: Roboto Serif;
+     font-size: 20px;
+     font-style: normal;
+     font-weight: 300;
+     line-height: normal;
+     margin: 0;
+ }
+
+ .pricingTable .pricingTable-header .amount {
+
+     width: 31px;
+     height: 54px;
+     color: #FFF;
+     font-family: Roboto Serif;
+     font-size: 50px;
+     font-style: normal;
+     font-weight: 700;
+     line-height: normal;
+ }
+
+ .pricingTable .pricingTable-header .duration {
+     color: #FFF;
+     font-family: Roboto Serif;
+     font-size: 20px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: normal;
+ }
+
+ .pricingTable .pricingTable-header .price-value {
+
+     padding: 10px 30px 8px;
+     color: #F8B1C7;
+     text-align: center;
+     font-family: Roboto Serif;
+     font-size: 35px;
+     font-style: normal;
+     font-weight: 500;
+     line-height: normal;
+
+ }
+
+ .pricingTable .pricingTable-header .price-value .line-1 hr {
+     height: 3px;
+     background: #F8B1C7;
+ }
+
+
+ .pricingTable .pricing-content {
+     display: inline-flex;
+     padding: 20px 10px;
+     flex-direction: column;
+     /* align-items: flex-start;
+gap: 28px; */
+ }
+
+ .pricingTable .pricing-content li {
+     color: #fff;
+     font-size: 17px;
+     font-weight: 500;
+     line-height: 30px;
+     padding: 0 15px 8px 35px;
+     margin: 0 0 10px;
+     border-bottom: 2px dashed #fff;
+     position: relative;
+ }
+
+ .pricingTable .pricing-content li:last-child {
+     margin: 0;
+     border: none;
+ }
+
+ .pricingTable .pricing-content li:before {
+     content: "\f00c";
+     color: #fff;
+     font-family: "Font Awesome 5 free";
+     font-weight: 900;
+     position: absolute;
+     top: 3px;
+     left: 8px;
+ }
+
+ .pricingTable .pricing-content li.disable:before {
+     content: "\f00d";
+ }
+
+ .pricingTable .pricingTable-signup a {
+     color: #ED3034;
+     background: #fff;
+     font-size: 25px;
+     font-weight: 700;
+     text-transform: uppercase;
+     padding: 10px 25px 8px;
+     border-radius: 15px 15px;
+     display: inline-block;
+     transition: all 0.3s;
+ }
+
+ .pricingTable .pricingTable-signup a:hover {
+     text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.25);
+ }
+
+ .pricingTable.green {
+     --main-color: #92BB40;
+ }
+
+ .pricingTable.pink {
+     --main-color: #E33D93;
+ }
+
+ @media only screen and (max-width: 990px) {
+     .pricingTable {
+         margin: 0 0 40px;
+     }
+ }
