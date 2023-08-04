@@ -8,6 +8,7 @@ img{
 .logo-img {
     position: relative;
 }
+
 .top-wrp {
     border-radius: 10px;
     display: flex;
@@ -51,6 +52,7 @@ img{
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 }
 .flag-wrp h4 {
     font-size: 17px;
@@ -62,7 +64,9 @@ img{
 .button {
     padding: 12px 50px;
     border-radius: 13px;
+    margin-left: 25px;
     text-decoration: none;
+    width: 190px;
     text-align: center;
     color: #fff;
     font-family: 'Aclonica', sans-serif !important;
@@ -73,11 +77,15 @@ img{
     width: 22px;
     margin-right: 5px;
 }
+.btn-group {
+    align-items: center;
+    margin-top: 25px;
+}
 .bottom-wrp.col-md-6.col-xl-6 {
     margin-top: 20px;
 }
 body{
-    /* font-family: 'Aclonica', sans-serif !important; */
+    font-family: 'Aclonica', sans-serif !important;
 }
 .bottom-wrp.col-md-12.col-xl-12 {
     display: flex;
@@ -95,7 +103,7 @@ ul{
     list-style-type: none;
     display: inline-flex;
 }
-.bottom-wrp li a {
+.bottom-wrp li a{
     color: #3D318A;
     font-size: 16px;
     font-family: 'Libre Baskerville', serif;

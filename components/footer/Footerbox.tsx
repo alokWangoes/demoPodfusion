@@ -81,6 +81,7 @@ const Footerbox = () => {
         <p className="footer-copyryt-subs">Privacy Policy</p>
         <p className="footer-copyryt-subs">Security</p>
       </div>
+
     </div>
   );
 };
