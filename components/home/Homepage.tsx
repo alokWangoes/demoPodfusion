@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import Footerbox from "../footer/Footerbox";
 import Header from "../header/Header";
 import Subscribe from "../subscribe/Subscribe";
@@ -9,12 +9,13 @@ import Mainsection from "./Mainsection";
 const Homepage = () => {
   return (
     <>
-      <div className="main-wrp">
+        <div className="main-wrp">
           <Header />
           <Banner />
-      </div>
-      <Subscribe/>
-      {/* <Footerbox  /> */}
+        </div>
+        <Mainsection />
+        <Subscribe />
+        {/* <Footerbox  /> */}
 
     </>
   );
