@@ -1,0 +1,592 @@
+.subscription-plan-container {
+  width: 100%;
+  height: 1200px;
+  flex-shrink: 0;
+  background: #dcb4f5;
+  padding: 80px 0px;
+}
+
+.subscription-plan-container-background {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-pricing h3 {
+  color: #fff;
+  text-align: center;
+  font-family: Aclonica;
+  font-size: 70px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1.05px;
+}
+
+.main-pricing p {
+  width: 650px;
+  text-align: center;
+  color: #3d318a;
+  font-family: Roboto Serif;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: 260px;
+}
+
+.subscription-types {
+  width: 92px;
+  color: #f8b1c7;
+  text-align: center;
+  font-family: Roboto Serif;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  border-bottom: 1px solid #f8b1c7;
+}
+
+.subscription-description {
+  position: relative;
+  top: 70px;
+  left: 20px;
+  width: 295px;
+  height: 229px;
+}
+
+.subscription-description ul {
+  display: inline-flex;
+  padding: 20px 10px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 28px;
+}
+
+.subscription-description ul li {
+  color: #fff;
+  padding: 0px 35px;
+  list-style-type: none;
+  font-family: Roboto Flex;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  flex: 1 0 0;
+
+  line-height: normal;
+  background-image: url("../../public/flat-color-icons_settings.svg");
+  background-repeat: no-repeat;
+  background-position: 2px;
+}
+
+.subscription-buy-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 99px;
+  padding: 20px 25px;
+}
+
+.btn {
+  width: 207px;
+  height: 49px;
+  gap: 25px;
+  flex-shrink: 0;
+  border-radius: 50px;
+  background: linear-gradient(
+    185deg,
+    rgba(150, 182, 255, 0.9) 27.21%,
+    rgba(173, 127, 177, 0.8) 53.61%,
+    rgba(214, 157, 174, 0) 96.36%
+  );
+
+  box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.5),
+    1px 1px 2px 0px rgba(0, 0, 0, 0.48);
+}
+
+.btn span {
+  color: var(--white, #fff);
+  font-family: Aclonica;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.subscription-card-inner-wrapper-best-seller {
+  width: 336px;
+  height: 642px;
+  border-radius: 130px;
+  background: linear-gradient(
+    2deg,
+    rgba(30, 30, 30, 0.4) 2.85%,
+    #3d318a 9.12%,
+    #fff 100%
+  );
+}
+
+.subscription-card-contents-best-seller {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  position: relative;
+  top: 42px;
+  left: 88px;
+}
+
+.pricingTable {
+  text-align: center;
+  padding: 0 0 30px;
+  border-radius: 130px;
+  background: linear-gradient(
+    2deg,
+    rgba(30, 30, 30, 0.4) 2.85%,
+    #3d318a 9.12%,
+    #fff 100%
+  );
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+  height: 642px;
+  border-color: linear-gradient(#4b3f92, #ff80a6) 30;
+  border-width: 2px;
+  border-style: solid;
+}
+
+.pricingTable .pricingTable-header {
+  padding: 20px 0px 0px;
+  margin: 0px;
+}
+
+.pricingTable .pricingTable-header .currency {
+  color: #fff;
+  font-family: Roboto Serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.pricingTable .pricingTable-header .amount {
+  width: 31px;
+  height: 54px;
+  color: #fff;
+  font-family: Roboto Serif;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.pricingTable .pricingTable-header .amount-pro {
+  width: 31px;
+  height: 54px;
+  color: #fac18c;
+  font-family: Roboto Serif;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.pricingTable .pricingTable-header .duration {
+  color: #fff;
+  font-family: Roboto Serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.pricingTable .pricingTable-header .price-value {
+  padding: 10px 30px 8px;
+  color: #f8b1c7;
+  text-align: center;
+  font-family: Roboto Serif;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.pricingTable .pricingTable-header .price-value .line-1 hr {
+  height: 1px;
+  background: #f8b1c7;
+}
+
+.pricingTable .pricingTable-header .price-value-premium {
+  padding: 10px 30px 1px;
+
+  color: #3d318a;
+  text-align: center;
+  font-family: Roboto Serif;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.pricingTable .pricingTable-header .price-value-premium .line-1 hr {
+  height: 1px;
+  background: #3d318a;
+}
+
+.pricingTable .pricingTable-header .price-value-pro {
+  padding: 0px 35px 1px;
+  color: #fac18c;
+  text-align: center;
+  font-family: Roboto Serif;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.pricingTable .pricingTable-header .price-value-pro .best-seller {
+  background-image: url("../../public/bestSeller.svg");
+  background-repeat: no-repeat;
+  width: 102.171px;
+  color: #3d318a;
+  font-family: Roboto Serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  float: right;
+  padding: 10px 11px;
+  position: relative;
+  left: 35px;
+}
+
+.pricingTable .pricingTable-header .price-value-pro .line-1 hr {
+  height: 1px;
+  color: #fac18c;
+}
+
+.pricingTable .pricingTable-header .price-value-enterprise {
+  padding: 10px 30px 1px;
+  text-align: center;
+  color: #4562a6;
+  font-family: Roboto Serif;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.pricingTable .pricingTable-header .price-value-enterprise .line-1 hr {
+  height: 1px;
+  color: #4562a6;
+}
+
+/* Pricing Description */
+
+.pricingTable .pricing-content {
+  display: inline-flex;
+  padding: 20px 10px;
+  flex-direction: column;
+}
+
+.pricingTable .pricing-content li {
+  padding: 10px 30px 10px 40px;
+  margin: 0 0 10px;
+  flex: 1 0 0;
+  color: #fff;
+  font-family: Roboto Flex;
+  font-size: 16px;
+  font-style: normal;
+  text-align: justify;
+  font-weight: 400;
+  line-height: normal;
+  list-style-type: none;
+  background-image: url("../../public/flat-color-icons_settings.svg");
+  background-repeat: no-repeat;
+  background-position: 10px;
+}
+
+.pricingTable .pricing-content-second-child {
+  display: inline-flex;
+  padding: 20px 10px;
+  flex-direction: column;
+}
+
+.pricingTable .pricing-content-second-child li {
+  padding: 10px 30px 10px 40px;
+  margin: 0 0 10px;
+  flex: 1 0 0;
+  color: #fff;
+  font-family: Roboto Flex;
+  font-size: 16px;
+  font-style: normal;
+  text-align: justify;
+  font-weight: 400;
+  line-height: normal;
+  list-style-type: none;
+  background-image: url("../../public/flat-color-icons_settings.svg");
+  background-repeat: no-repeat;
+  background-position: 10px;
+}
+
+.pricingTable .pricing-content-third-child {
+  display: inline-flex;
+  padding: 0px 10px;
+  flex-direction: column;
+}
+
+.pricingTable .pricing-content-third-child li {
+  padding: 5px 30px 10px 40px;
+  margin: 0 0 10px;
+  flex: 1 0 0;
+  color: #fff;
+  font-family: Roboto Flex;
+  font-size: 16px;
+  font-style: normal;
+  text-align: justify;
+  font-weight: 400;
+  line-height: normal;
+  list-style-type: none;
+  background-image: url("../../public/flat-color-icons_settings.svg");
+  background-repeat: no-repeat;
+  background-position: 10px;
+}
+
+.pricingTable .pricing-content-fourth-child {
+  display: inline-flex;
+  padding: 0px 10px;
+  flex-direction: column;
+}
+
+.pricingTable .pricing-content-fourth-child li {
+  padding: 0px 30px 10px 40px;
+  margin: 0 0 10px;
+  flex: 1 0 0;
+  color: #fff;
+  font-family: Roboto Flex;
+  font-size: 16px;
+  font-style: normal;
+  text-align: justify;
+  font-weight: 400;
+  line-height: normal;
+  list-style-type: none;
+  background-image: url("../../public/flat-color-icons_settings.svg");
+  background-repeat: no-repeat;
+  background-position: 10px;
+}
+
+/*  Pricing Try Now Buttons */
+
+.pricingTable .pricingTable-signup .try-now-btn {
+  display: inline-block;
+  width: 207px;
+  height: 49px;
+  padding: 10px 25px 8px;
+  margin-top: 20px;
+  border-radius: 50px;
+  background: linear-gradient(
+    185deg,
+    rgba(150, 182, 255, 0.9) 27.21%,
+    rgba(173, 127, 177, 0.8) 53.61%,
+    rgba(214, 157, 174, 0) 96.36%
+  );
+  box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.5),
+    1px 1px 2px 0px rgba(0, 0, 0, 0.48);
+  color: var(--white, #fff);
+  font-family: Aclonica;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.pricingTable .pricingTable-signup-premium .try-now-btn-premium {
+  display: flex;
+  margin: auto;
+  width: 207px;
+  height: 49px;
+  padding: 20px 25px;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  flex-shrink: 0;
+  border-radius: 50px;
+  background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.4) 0%,
+      rgba(255, 255, 255, 0.4) 100%
+    ),
+    linear-gradient(
+      270deg,
+      rgba(255, 255, 255, 0.15) 0%,
+      rgba(255, 0, 31, 0.15) 100%
+    ),
+    linear-gradient(
+      231deg,
+      rgba(255, 255, 255, 0.15) 0%,
+      rgba(255, 0, 184, 0.15) 100%
+    ),
+    linear-gradient(
+      136deg,
+      rgba(255, 255, 255, 0.15) 0%,
+      rgba(143, 0, 255, 0.15) 100%
+    ),
+    linear-gradient(
+      127deg,
+      rgba(255, 255, 255, 0.15) 0%,
+      rgba(36, 0, 255, 0.15) 100%
+    ),
+    linear-gradient(
+      216deg,
+      rgba(255, 255, 255, 0.15) 0%,
+      rgba(0, 255, 163, 0.15) 100%
+    ),
+    linear-gradient(
+      270deg,
+      rgba(255, 255, 255, 0.15) 0%,
+      rgba(250, 255, 0, 0.15) 100%
+    ),
+    linear-gradient(
+      270deg,
+      rgba(255, 255, 255, 0.15) 0%,
+      rgba(255, 122, 0, 0.15) 100%
+    ),
+    rgba(255, 0, 77, 0.6);
+  box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.5),
+    1px 1px 2px 0px rgba(0, 0, 0, 0.48);
+  color: var(--white, #fff);
+  font-family: Aclonica;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.pricingTable .pricingTable-signup-pro .try-now-btn-pro {
+  display: flex;
+  margin: auto;
+  width: 207px;
+  height: 49px;
+  margin-top: 16px;
+  padding: 20px 25px;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  flex-shrink: 0;
+  border-radius: 50px;
+  background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.4) 0%,
+      rgba(255, 255, 255, 0.4) 100%
+    ),
+    linear-gradient(
+      270deg,
+      rgba(255, 255, 255, 0.15) 0%,
+      rgba(255, 0, 31, 0.15) 100%
+    ),
+    linear-gradient(
+      231deg,
+      rgba(255, 255, 255, 0.15) 0%,
+      rgba(255, 0, 184, 0.15) 100%
+    ),
+    linear-gradient(
+      136deg,
+      rgba(255, 255, 255, 0.15) 0%,
+      rgba(143, 0, 255, 0.15) 100%
+    ),
+    linear-gradient(
+      127deg,
+      rgba(255, 255, 255, 0.15) 0%,
+      rgba(36, 0, 255, 0.15) 100%
+    ),
+    linear-gradient(
+      216deg,
+      rgba(255, 255, 255, 0.15) 0%,
+      rgba(0, 255, 163, 0.15) 100%
+    ),
+    linear-gradient(
+      270deg,
+      rgba(255, 255, 255, 0.15) 0%,
+      rgba(250, 255, 0, 0.15) 100%
+    ),
+    linear-gradient(
+      270deg,
+      rgba(255, 255, 255, 0.15) 0%,
+      rgba(255, 122, 0, 0.15) 100%
+    ),
+    rgba(255, 0, 77, 0.6);
+  box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.5),
+    1px 1px 2px 0px rgba(0, 0, 0, 0.48);
+  color: var(--white, #fff);
+  font-family: Aclonica;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.pricingTable .pricingTable-signup-enterprise .try-now-btn-enterprise {
+  display: flex;
+  margin: auto;
+  width: 207px;
+  height: 49px;
+  padding: 20px 25px;
+  justify-content: center;
+  margin-top: 20px;
+  align-items: center;
+  gap: 25px;
+  flex-shrink: 0;
+  border-radius: 50px;
+  background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.4) 0%,
+      rgba(255, 255, 255, 0.4) 100%
+    ),
+    linear-gradient(
+      270deg,
+      rgba(255, 255, 255, 0.15) 0%,
+      rgba(255, 0, 31, 0.15) 100%
+    ),
+    linear-gradient(
+      231deg,
+      rgba(255, 255, 255, 0.15) 0%,
+      rgba(255, 0, 184, 0.15) 100%
+    ),
+    linear-gradient(
+      136deg,
+      rgba(255, 255, 255, 0.15) 0%,
+      rgba(143, 0, 255, 0.15) 100%
+    ),
+    linear-gradient(
+      127deg,
+      rgba(255, 255, 255, 0.15) 0%,
+      rgba(36, 0, 255, 0.15) 100%
+    ),
+    linear-gradient(
+      216deg,
+      rgba(255, 255, 255, 0.15) 0%,
+      rgba(0, 255, 163, 0.15) 100%
+    ),
+    linear-gradient(
+      270deg,
+      rgba(255, 255, 255, 0.15) 0%,
+      rgba(250, 255, 0, 0.15) 100%
+    ),
+    linear-gradient(
+      270deg,
+      rgba(255, 255, 255, 0.15) 0%,
+      rgba(255, 122, 0, 0.15) 100%
+    ),
+    rgba(255, 0, 77, 0.6);
+  color: var(--white, #fff);
+  font-family: Aclonica;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.5),
+    1px 1px 2px 0px rgba(0, 0, 0, 0.48);
+}
+
+@media only screen and (max-width: 990px) {
+  .pricingTable {
+    margin: 0 0 40px;
+  }
+}
