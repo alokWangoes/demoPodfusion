@@ -78,7 +78,7 @@ const SubscriptionPlan = () => {
         </div>
       </div>
       <div className="container">
-        <div className="row">
+        <div className="row pricing-wrapper">
           <div className="col-md-3 col-sm-6 col-xs-12">
             <div className="pricingTable">
               <div className="pricingTable-header">
@@ -102,10 +102,6 @@ const SubscriptionPlan = () => {
                   magna et amet.
                 </li>
               </ul>
-              <br />
-              <br />
-              <br />
-              <br />
               <div className="pricingTable-signup">
                 <button className="try-now-btn">Try Now</button>
               </div>
@@ -132,18 +128,13 @@ const SubscriptionPlan = () => {
                   No need to download anything, it runs completely in the cloud.
                 </li>
               </ul>
-              <br />
-              <br />
-              <br />
-              <br />
-              <br />
 
               <div className="pricingTable-signup-premium">
                 <button className="try-now-btn-premium">Try Now</button>
               </div>
             </div>
           </div>
-          <div className="col-md-3 col-sm-6 col-xs-12">
+          <div className="col-md-3 col-sm-4 col-xs-12">
             <div className="pricingTable">
               <div className="pricingTable-header">
                 <span className="currency">$</span>
@@ -172,8 +163,6 @@ const SubscriptionPlan = () => {
                 </li>
                 <li>One more: Access to all marketplaces</li>
               </ul>
-              <br />
-              <br />
 
               <div className="pricingTable-signup-pro">
                 <button className="try-now-btn-pro">Try Now</button>
@@ -209,14 +198,18 @@ const SubscriptionPlan = () => {
                 </li>
                 <li>24h support</li>
               </ul>
-              <br />
-              <br />
 
               <div className="pricingTable-signup-enterprise">
                 <button className="try-now-btn-enterprise">Try Now</button>
               </div>
             </div>
           </div>
+          <span className="vector-ellipse-2">
+            <img src="pricing-vector-ellipse.svg" />
+          </span>
+          <span className="vector-ellipse-1">
+            <img src="pricing-vector-ellipse.svg" />
+          </span>
         </div>
       </div>
     </div>

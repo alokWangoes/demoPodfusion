@@ -3,99 +3,89 @@ import React from "react";
 import "./Footerbox.css";
 const Footerbox = () => {
   return (
-    <div className="container-fluid footer-container">
-      <div className="footer-container-inner container-fluid">
-        <div className="footer-logo">
-          <img src="/logo.svg" />
-        </div>
-        <div className="footer-socials">
-          <div className="footer-quick">
-            <span> Quick Links</span>
-          </div>
-          <div className="footer-stay">
-            <span> Stay updated</span>
-          </div>
-          <div className="footer-icons">
-            <div>
-              <img
-                src="/linkdin.svg"
-                alt="linkedlin"
-                className="footer-social-icons-img"
-              />
+    <div className="footer-container">
+      <div className="container">
+        <div className="row">
+          <div className="footer-left-section">
+            <div className="footer-logo">
+              <img src="/logo.svg" />
+              <div className="footer-right-section">
+                <div className="quick-links">
+                  <span> Quick Links</span>
+                </div>
+                <div className="footer-stay">
+                  <span> Stay updated</span>
+                </div>
+                <div className="footer-icons">
+                  <span>
+                    <img
+                      src="/linkdin.svg"
+                      alt="linkedlin"
+                      className="footer-social-icons-img"
+                    />
+                  </span>
+                  <span>
+                    <img
+                      src="/facebook.svg"
+                      alt="linkedlin"
+                      className="footer-social-icons-img"
+                    />
+                  </span>
+                  <span>
+                    <img
+                      src="/twitter.svg"
+                      alt="twitterIn"
+                      className="footer-social-icons-img"
+                    />
+                  </span>
+                </div>
+              </div>
             </div>
-            <div>
-              <img
-                src="/facebook.svg"
-                alt="linkedlin"
-                className="footer-social-icons-img"
-              />
-            </div>
-            <div>
-              <img
-                src="/twitter.svg"
-                alt="linkedlin"
-                className="footer-social-icons-img"
-              />
-            </div>
           </div>
-        </div>
-      </div>
-      <div className="footer-body ">
-        <div className="footer-body-title container-fluid">
-          <span>
-            Lorem ipsum dolor sit amet consectetur. Luctus tincidunt neque quis
-            sit tristique. Elementum a vitae augue condimentum augue ipsum nec.{" "}
-          </span>
-        </div>
+          <div className="footer-title-left">
+            <span>
+              Lorem ipsum dolor sit amet consectetur. Luctus tincidunt neque
+              quis sit tristique. Elementum a vitae augue condimentum augue
+              ipsum nec.
+            </span>
+            <div className="footer-link">
+              <ul className="footer-links-1">
+                <li>Home</li>
+                <li>Contact</li>
+                <li>FAQs</li>
+                <li>Pricing</li>
+                <li>Documentation</li>
+              </ul>
+              <ul className="footer-links-2">
+                <li>Etsy</li>
+                <li>Walmart</li>
+                <li>eBay</li>
+                <li>Lorem</li>
+              </ul>
 
-        <div className="container email-tabs">
-          <div className="footer-email-section">
-            <div className="footer-body-list">
-              <span>Home</span>
-              <span>Contact</span>
-              <span>FAQs</span>
-              <span>Pricing</span>
-              <span>Documentation</span>
-            </div>
-            <div className="footer-body-list-etsy">
-              <span>Etsy</span>
-              <span>Walmart</span>
-              <span>eBay</span>
-              <span>Lorem</span>
-            </div>
-          </div>
-
-          <div className="container">
-            <div>
-              <div className="footer-input-btn">
-                <span className="enter-email">Please enter your email</span>
-                <input
-                  type="email"
-                  placeholder="Email"
-                  className="footer-input"
-                />
-                <button className="footer-button">SEND</button>
+              <div className="email-input-wrapper">
+                <div className="email-title-heading">
+                  Please enter your email
+                </div>
+                <div className="input-tab">
+                  <input
+                    type="email"
+                    className="email-input"
+                    placeholder="Email"
+                    alt="email-input"
+                  />
+                  <button type="submit" className="btn-send">
+                    SEND
+                  </button>
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
 
-      <div className="footer-copyryt container-fluid">
-        <p className="footer-copyryt-title">
-          <span>
-            <img
-              src="/copyrightVector.svg"
-              alt="copy"
-              className="footer-copyryt-img"
-            />
-          </span>
-          2023 PODfusion. All rights preserved.
-        </p>
-        <p className="footer-copyryt-subs">Intellectual Property Policy</p>
-        <p className="footer-copyryt-subs">Terms of service</p>
-        <p className="footer-copyryt-subs">Privacy Policy</p>
-        <p className="footer-copyryt-subs">Security</p>
+        <span className="footer-vector-bg">
+          <img src="footer-vector-svg2.svg" />
+        </span>
       </div>
     </div>
   );

@@ -1,45 +1,75 @@
 .banner-content span {
-    font-family: 'Chela One', cursive;
-    font-weight: bold;
-    color: #3D318A;
+  height: 258px;
+  width: 683px;
+  color: #3d318a;
+  font-family: Chela One;
+  font-size: 100px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 .banner-content h2 {
-    font-size: 4rem;
-    font-family: 'Baskerville', serif;
-    font-weight: normal;
-    margin-bottom: 20px;
+  height: 258px;
+  width: 683px;
+  margin-left: 52px;
+  color: #000;
+  font-family: Baskervville;
+  font-size: 100px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 .common-content {
-    font-family: 'Roboto serif';
-    color: #61569F;
-    font-size: 26px;
+  width: 662px;
+  height: 140px;
+  margin-left: 55px;
+  margin-top: 42px;
+  color: #61569f;
+  font-family: Roboto Serif;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 .banner-content {
-    z-index: 999;
-    padding-right: 35px;
-    padding: 50px 35px 0px 0px;
+  z-index: 999;
 }
 .banner-image img {
-    width: 70%;
+  width: 563px;
+  height: 717px;
+  margin-left: 120px;
 }
 .banner-image {
-    display: flex;
-    justify-content: end;
-    z-index: 999;
+  display: flex;
+  justify-content: end;
+  z-index: 999;
+  margin-bottom: 35px;
 }
-button.banner-btn {
-    margin-left: 6rem;
-    margin-top: 4rem;
-}
-.banner-section{
-    padding: 60px 0px 0px 0px;
+
+.banner-section {
+  background-image: url("../../public/image/homepageBg.svg");
+  background-repeat: no-repeat;
 }
 .banner-btn {
-    border: none;
-    padding: 15px 55px;
-    color: #fff;
-    font-family: 'Aclonica', sans-serif !important;
-    border-radius: 15px;
-    box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.50), 1px 1px 2px 0px rgba(0, 0, 0, 0.48);
-    background: linear-gradient(180deg, #8981B8 40.24%, rgba(173, 127, 177, 0.80) 66.32%, rgba(214, 157, 174, 0.40) 98.36%);
+  width: 212px;
+  height: 64px;
+  border: none;
+  margin-top: 94px;
+  margin-left: 157px;
+  padding: 20px 25px;
+  border-radius: 15px;
+  background: linear-gradient(
+    180deg,
+    #8981b8 45.24%,
+    rgba(173, 127, 177, 0.8) 61.32%,
+    rgba(214, 157, 174, 0) 96.36%
+  );
+  box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.5),
+    1px 1px 2px 0px rgba(0, 0, 0, 0.48);
+  color: #fff;
+  font-family: Aclonica;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }

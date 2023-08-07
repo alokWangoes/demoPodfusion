@@ -1,3 +1,4 @@
+import Copyright from "../footer/Copyright";
 import Footerbox from "../footer/Footerbox";
 import Header from "../header/Header";
 import Banner from "./Banner";
@@ -14,6 +15,7 @@ const Homepage = () => {
       <Mainsection />
       <SubscriptionPlan />
       <Footerbox />
+      <Copyright />
     </>
   );
 };

@@ -1,17 +1,15 @@
 .subscription-plan-container {
-  width: 100%;
-  height: 1200px;
+  width: 1454px;
+  height: 1277px;
   flex-shrink: 0;
   background: #dcb4f5;
-  padding: 80px 0px;
-}
-
-.subscription-plan-container-background {
-  display: flex;
-  justify-content: space-between;
 }
 
 .main-pricing h3 {
+  width: 1117px;
+  height: 158px;
+  margin-top: 68px;
+  margin-left: 188px;
   color: #fff;
   text-align: center;
   font-family: Aclonica;
@@ -23,90 +21,13 @@
 }
 
 .main-pricing p {
-  width: 650px;
-  text-align: center;
+  width: 732px;
+  height: 70px;
+  width: 732px;
+  margin-left: 397px;
   color: #3d318a;
   font-family: Roboto Serif;
   font-size: 30px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  margin-left: 260px;
-}
-
-.subscription-types {
-  width: 92px;
-  color: #f8b1c7;
-  text-align: center;
-  font-family: Roboto Serif;
-  font-size: 35px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: normal;
-  border-bottom: 1px solid #f8b1c7;
-}
-
-.subscription-description {
-  position: relative;
-  top: 70px;
-  left: 20px;
-  width: 295px;
-  height: 229px;
-}
-
-.subscription-description ul {
-  display: inline-flex;
-  padding: 20px 10px;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 28px;
-}
-
-.subscription-description ul li {
-  color: #fff;
-  padding: 0px 35px;
-  list-style-type: none;
-  font-family: Roboto Flex;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  flex: 1 0 0;
-
-  line-height: normal;
-  background-image: url("../../public/flat-color-icons_settings.svg");
-  background-repeat: no-repeat;
-  background-position: 2px;
-}
-
-.subscription-buy-button {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 99px;
-  padding: 20px 25px;
-}
-
-.btn {
-  width: 207px;
-  height: 49px;
-  gap: 25px;
-  flex-shrink: 0;
-  border-radius: 50px;
-  background: linear-gradient(
-    185deg,
-    rgba(150, 182, 255, 0.9) 27.21%,
-    rgba(173, 127, 177, 0.8) 53.61%,
-    rgba(214, 157, 174, 0) 96.36%
-  );
-
-  box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.5),
-    1px 1px 2px 0px rgba(0, 0, 0, 0.48);
-}
-
-.btn span {
-  color: var(--white, #fff);
-  font-family: Aclonica;
-  font-size: 21px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -134,27 +55,32 @@
   left: 88px;
 }
 
+.pricing-wrapper {
+  width: 1404px;
+  height: 607px;
+  flex-shrink: 0;
+}
+
 .pricingTable {
+  width: 336px;
+  height: 642px;
   text-align: center;
-  padding: 0 0 30px;
-  border-radius: 130px;
+  border-radius: 105px;
   background: linear-gradient(
     2deg,
-    rgba(30, 30, 30, 0.4) 2.85%,
-    #3d318a 9.12%,
-    #fff 100%
+    rgba(42, 72, 168, 0.4) 2.85%,
+    #3d318a 49.12%,
+    #fff 120%
   );
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
   overflow: hidden;
-  height: 642px;
-  border-color: linear-gradient(#4b3f92, #ff80a6) 30;
   border-width: 2px;
   border-style: solid;
+  border-color: #4b3f92;
 }
 
 .pricingTable .pricingTable-header {
-  padding: 20px 0px 0px;
-  margin: 0px;
+  margin: 20px;
 }
 
 .pricingTable .pricingTable-header .currency {
@@ -182,7 +108,7 @@
   height: 54px;
   color: #fac18c;
   font-family: Roboto Serif;
-  font-size: 60px;
+  font-size: 50px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
@@ -198,7 +124,7 @@
 }
 
 .pricingTable .pricingTable-header .price-value {
-  padding: 10px 30px 8px;
+  margin: 30px;
   color: #f8b1c7;
   text-align: center;
   font-family: Roboto Serif;
@@ -214,7 +140,7 @@
 }
 
 .pricingTable .pricingTable-header .price-value-premium {
-  padding: 10px 30px 1px;
+  margin: 30px;
 
   color: #3d318a;
   text-align: center;
@@ -231,7 +157,8 @@
 }
 
 .pricingTable .pricingTable-header .price-value-pro {
-  padding: 0px 35px 1px;
+  margin: 30px;
+
   color: #fac18c;
   text-align: center;
   font-family: Roboto Serif;
@@ -254,16 +181,18 @@
   float: right;
   padding: 10px 11px;
   position: relative;
-  left: 35px;
+  left: 68px;
 }
 
 .pricingTable .pricingTable-header .price-value-pro .line-1 hr {
   height: 1px;
+  width: 200px;
   color: #fac18c;
 }
 
 .pricingTable .pricingTable-header .price-value-enterprise {
-  padding: 10px 30px 1px;
+  margin: 30px;
+
   text-align: center;
   color: #4562a6;
   font-family: Roboto Serif;
@@ -282,7 +211,7 @@
 
 .pricingTable .pricing-content {
   display: inline-flex;
-  padding: 20px 10px;
+  padding: 10px 10px;
   flex-direction: column;
 }
 
@@ -305,7 +234,7 @@
 
 .pricingTable .pricing-content-second-child {
   display: inline-flex;
-  padding: 20px 10px;
+  padding: 10px 10px;
   flex-direction: column;
 }
 
@@ -342,7 +271,7 @@
   font-style: normal;
   text-align: justify;
   font-weight: 400;
-  line-height: 17px;
+  line-height: 15px;
   list-style-type: none;
   background-image: url("../../public/flat-color-icons_settings.svg");
   background-repeat: no-repeat;
@@ -365,7 +294,7 @@
   font-style: normal;
   text-align: justify;
   font-weight: 400;
-  line-height: 15px;
+  line-height: 13.5px;
   list-style-type: none;
   background-image: url("../../public/flat-color-icons_settings.svg");
   background-repeat: no-repeat;
@@ -375,11 +304,16 @@
 /*  Pricing Try Now Buttons */
 
 .pricingTable .pricingTable-signup .try-now-btn {
-  display: inline-block;
-  width: 207px;
+  display: flex;
+  margin: auto;
+  width: 187.157px;
   height: 49px;
-  padding: 10px 25px 8px;
-  margin-top: 20px;
+  padding: 20px 25px;
+  margin-top: 85px;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  flex-shrink: 0;
   border-radius: 50px;
   background: linear-gradient(
     185deg,
@@ -399,10 +333,11 @@
 
 .pricingTable .pricingTable-signup-premium .try-now-btn-premium {
   display: flex;
-  margin: auto;
   width: 207px;
   height: 49px;
   padding: 20px 25px;
+  margin-left: 66px;
+  margin-top: 82px;
   justify-content: center;
   align-items: center;
   gap: 25px;
@@ -464,6 +399,7 @@
   margin: auto;
   width: 207px;
   height: 49px;
+  margin-top: 29px;
   padding: 20px 25px;
   justify-content: center;
   align-items: center;
@@ -525,6 +461,7 @@
   display: flex;
   margin: auto;
   width: 207px;
+  margin-top: 24px;
   height: 49px;
   padding: 20px 25px;
   justify-content: center;
@@ -583,8 +520,40 @@
     1px 1px 2px 0px rgba(0, 0, 0, 0.48);
 }
 
+.vector-ellipse-1 {
+  transform: scaleX(-1);
+  width: 1454px;
+  height: 216px;
+  flex-shrink: 0;
+  z-index: 999;
+  position: relative;
+  right: 36px;
+  bottom: 125px;
+}
+
+.vector-ellipse-2 {
+  width: 1463px;
+  height: 216px;
+  flex-shrink: 0;
+  position: relative;
+  right: 36px;
+}
+
 @media only screen and (max-width: 990px) {
   .pricingTable {
     margin: 0 0 40px;
+  }
+}
+
+@media (min-width: 768px) {
+  .col-md-3 {
+    flex: 0 0 auto;
+    width: 25%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1404px;
   }
 }
