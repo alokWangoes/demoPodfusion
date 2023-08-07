@@ -87,6 +87,7 @@ const Footerbox = () => {
           <img src="footer-vector-svg2.svg" />
         </span>
       </div>
+
     </div>
   );
 };
