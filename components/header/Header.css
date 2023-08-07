@@ -11,6 +11,7 @@ img {
   height: 76px;
   margin-top: 49px;
 }
+
 .top-wrp {
   width: 675px;
   height: 36px;
@@ -63,6 +64,8 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
+    
+    cursor: pointer;
 }
 .flag-wrp h4 {
   font-size: 17px;
@@ -122,10 +125,24 @@ img {
     rgba(255, 0, 77, 0.6);
   box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.5),
     1px 1px 2px 0px rgba(0, 0, 0, 0.48);
+    padding: 12px 50px;
+    border-radius: 13px;
+    margin-left: 25px;
+    text-decoration: none;
+    width: 190px;
+    text-align: center;
+    color: #fff;
+    font-family: 'Aclonica', sans-serif !important;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.40) 0%, rgba(255, 255, 255, 0.40) 100%), linear-gradient(270deg, rgba(255, 255, 255, 0.15) 0%, rgba(255, 0, 31, 0.15) 100%), linear-gradient(231deg, rgba(255, 255, 255, 0.15) 0%, rgba(255, 0, 184, 0.15) 100%), linear-gradient(136deg, rgba(255, 255, 255, 0.15) 0%, rgba(143, 0, 255, 0.15) 100%), linear-gradient(127deg, rgba(255, 255, 255, 0.15) 0%, rgba(36, 0, 255, 0.15) 100%), linear-gradient(216deg, rgba(255, 255, 255, 0.15) 0%, rgba(0, 255, 163, 0.15) 100%), linear-gradient(270deg, rgba(255, 255, 255, 0.15) 0%, rgba(250, 255, 0, 0.15) 100%), linear-gradient(270deg, rgba(255, 255, 255, 0.15) 0%, rgba(255, 122, 0, 0.15) 100%), rgba(255, 0, 77, 0.60);
+    box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.50), 1px 1px 2px 0px rgba(0, 0, 0, 0.48);
 }
 .social-icons img {
   width: 22px;
   margin-right: 5px;
+}
+.btn-group {
+    align-items: center;
+    margin-top: 25px;
 }
 .bottom-wrp.col-md-6.col-xl-6 {
   margin-top: 20px;
