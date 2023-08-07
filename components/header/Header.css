@@ -32,6 +32,7 @@ img {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-top: 80px;
 }
 .main-wrp {
   padding: 30px 0px;
@@ -71,12 +72,12 @@ img {
   margin-right: 10px;
 }
 .button {
-  margin-top: 80px;
   padding: 12px 50px;
   border-radius: 13px;
   text-decoration: none;
   text-align: center;
   color: #fff;
+  margin-left: 34px;
   font-family: "Aclonica", sans-serif !important;
   background: linear-gradient(
       0deg,
@@ -128,7 +129,7 @@ img {
 }
 .bottom-wrp.col-md-6.col-xl-6 {
   margin-top: 20px;
-  height: 102px;
+  height: 90px;
   width: 717px;
 }
 body {
@@ -159,12 +160,12 @@ a {
   text-decoration: none;
 }
 a.button-primary {
-  margin-top: 90px;
   text-transform: uppercase;
   text-decoration: underline;
   letter-spacing: 1.2px;
   color: #3d318a;
   font-family: "Aclonica", sans-serif !important;
+  margin-left: 29px;
 }
 .bottom-wrp li img {
   width: 24px;

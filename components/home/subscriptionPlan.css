@@ -59,6 +59,50 @@
   width: 1404px;
   height: 607px;
   flex-shrink: 0;
+  margin-top: 59px;
+}
+
+.toggle-wrapper {
+  display: flex;
+  width: 213px;
+  height: 58px;
+  padding: 7px 5px;
+  justify-content: center;
+  align-items: center;
+  gap: 47px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  background: linear-gradient(
+    221deg,
+    rgba(114, 140, 229, 0.74) 0%,
+    rgba(228, 169, 255, 0.79) 100%
+  );
+  margin-top: 35px;
+  margin-left: 620px;
+}
+
+.toggle-wrapper ul {
+  float: left;
+  display: block;
+  width: 100%;
+  max-width: 326px;
+  border-radius: 1.6666666667rem;
+  margin: 0px auto;
+  margin-bottom: 40px;
+  background: #f36233;
+  text-align: center;
+  position: relative;
+}
+
+.toggle-wrapper .toggle-inner {
+  width: 97px;
+  height: 58px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  margin-left: 116px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  background: linear-gradient(150deg, #5972c9 15.84%, #e4a9ff 100%);
 }
 
 .pricingTable {
@@ -74,9 +118,32 @@
   );
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
   overflow: hidden;
-  border-width: 2px;
+  border-width: 3px;
   border-style: solid;
   border-color: #4b3f92;
+}
+
+#pro-table {
+  border-color: #fff !important ;
+}
+
+.bg-ellipse {
+  background-image: url("../../public/subscriptionPlan-ellipse.svg");
+  background-repeat: no-repeat;
+}
+
+.bg-ellipse-premium {
+  background-image: url("../../public/subscriptionPlan-ellipse2.svg");
+  background-repeat: no-repeat;
+}
+
+.bg-ellipse-pro {
+  background-image: url("../../public/subscriptionPlan-ellipse3.svg");
+  background-repeat: no-repeat;
+}
+.bg-ellipse-enterprise {
+  background-image: url("../../public/subscriptionPlan-ellipse4.svg");
+  background-repeat: no-repeat;
 }
 
 .pricingTable .pricingTable-header {
@@ -309,7 +376,7 @@
   width: 187.157px;
   height: 49px;
   padding: 20px 25px;
-  margin-top: 85px;
+  margin-top: 92px;
   justify-content: center;
   align-items: center;
   gap: 25px;
@@ -337,7 +404,7 @@
   height: 49px;
   padding: 20px 25px;
   margin-left: 66px;
-  margin-top: 82px;
+  margin-top: 92px;
   justify-content: center;
   align-items: center;
   gap: 25px;
@@ -528,7 +595,7 @@
   z-index: 999;
   position: relative;
   right: 36px;
-  bottom: 125px;
+  bottom: 200px;
 }
 
 .vector-ellipse-2 {

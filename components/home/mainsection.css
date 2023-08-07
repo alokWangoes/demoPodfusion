@@ -83,6 +83,7 @@ h3 img {
   width: 1349px;
   height: 589px;
   flex-shrink: 0;
+  margin-left: 40px;
   border-radius: 250px;
   background: linear-gradient(180deg, #eac0cd 0%, #fff 93.75%);
   border: 5px solid #96b6ffe5;
@@ -194,5 +195,10 @@ h3 img {
 @media (min-width: 1200px) {
   .container {
     max-width: 1404px;
+  }
+  .col-xl-4 {
+    flex: 0 0 auto;
+    width: 22.333333%;
+    margin-left: 101px;
   }
 }
