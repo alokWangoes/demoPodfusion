@@ -1,7 +1,33 @@
 "use client";
 import React from "react";
 import "./Footerbox.css";
+import { useForm, SubmitHandler } from "react-hook-form";
+import { yupResolver } from "@hookform/resolvers/yup";
+import * as yup from "yup";
+
 const Footerbox = () => {
+  const schema = yup.object().shape({
+    email: yup
+      .string()
+      .email("Please enter valid email")
+      .required("Email required"),
+  });
+
+  const {
+    register,
+    handleSubmit,
+    formState: { errors },
+    watch,
+  } = useForm({
+    resolver: yupResolver(schema),
+    defaultValues: {
+      email: "",
+    },
+  });
+
+  const sendEmail = (data: any) => {
+    console.log(data);
+  };
   return (
     <div className="footer-container">
       <div className="container">
@@ -67,17 +93,27 @@ const Footerbox = () => {
                 <div className="email-title-heading">
                   Please enter your email
                 </div>
-                <div className="input-tab">
-                  <input
-                    type="email"
-                    className="email-input"
-                    placeholder="Email"
-                    alt="email-input"
-                  />
-                  <button type="submit" className="btn-send">
-                    SEND
-                  </button>
-                </div>
+                <form>
+                  <div className="input-tab">
+                    <input
+                      {...register("email")}
+                      type="email"
+                      className="email-input"
+                      placeholder="Email"
+                      alt="email-input"
+                    />
+                    <button
+                      onClick={handleSubmit((data) => {
+                        sendEmail(data);
+                      })}
+                      type="submit"
+                      className="btn-send"
+                    >
+                      SEND
+                    </button>
+                  </div>
+                  <div className="text-danger"> {errors.email?.message}</div>
+                </form>
               </div>
             </div>
           </div>
@@ -87,7 +123,6 @@ const Footerbox = () => {
           <img src="footer-vector-svg2.svg" />
         </span>
       </div>
-
     </div>
   );
 };
