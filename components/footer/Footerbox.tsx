@@ -68,7 +68,7 @@ const Footerbox = () => {
               </div>
             </div>
           </div>
-          <div className="footer-title-left">
+          <div className="footer-second">
             <span>
               Lorem ipsum dolor sit amet consectetur. Luctus tincidunt neque
               quis sit tristique. Elementum a vitae augue condimentum augue

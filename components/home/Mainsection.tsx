@@ -90,7 +90,7 @@ const Mainsection = () => {
             </div>
           </div>
         </div>
-        <div className="container">
+        <div className="container" id="second-wrapper">
           <div className="row">
             <div className="main-section-body">
               <div className="main-section-inner-box">

@@ -21,8 +21,8 @@ h3 img {
 .main-section {
   background-image: url("../../public/middel.png");
   background-size: cover;
-  width: 1454px;
-  height: 2410px;
+  /* width: 1454px; */
+  height: 2410px; 
   flex-shrink: 0;
 }
 .row.main {
@@ -83,7 +83,7 @@ h3 img {
   width: 1349px;
   height: 589px;
   flex-shrink: 0;
-  margin-left: 40px;
+  /* margin-left: 40px; */
   border-radius: 250px;
   background: linear-gradient(180deg, #eac0cd 0%, #fff 93.75%);
   border: 5px solid #96b6ffe5;
@@ -192,10 +192,14 @@ h3 img {
     1px 1px 2px 0px rgba(0, 0, 0, 0.48);
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1400px)  {
   .container {
-    max-width: 1404px;
-  }
+    max-width: 1454px;  
+   }
+   #second-wrapper{
+    max-width: 1349px;
+   }
+
   .col-xl-4 {
     flex: 0 0 auto;
     width: 22.333333%;
