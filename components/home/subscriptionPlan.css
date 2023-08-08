@@ -1,5 +1,5 @@
 .subscription-plan-container {
-  width: 1454px;
+  /* width: 1454px; */
   height: 1277px;
   flex-shrink: 0;
   background: #dcb4f5;
@@ -56,7 +56,7 @@
 }
 
 .pricing-wrapper {
-  width: 1404px;
+  /* width: 1404px; */
   height: 607px;
   flex-shrink: 0;
   margin-top: 59px;
@@ -106,7 +106,6 @@
 }
 
 .pricingTable {
-  width: 336px;
   height: 642px;
   text-align: center;
   border-radius: 105px;
@@ -466,7 +465,7 @@
   margin: auto;
   width: 207px;
   height: 49px;
-  margin-top: 29px;
+  margin-top: 32px;
   padding: 20px 25px;
   justify-content: center;
   align-items: center;
@@ -528,7 +527,7 @@
   display: flex;
   margin: auto;
   width: 207px;
-  margin-top: 24px;
+  margin-top: 30px;
   height: 49px;
   padding: 20px 25px;
   justify-content: center;
@@ -609,18 +608,20 @@
 @media only screen and (max-width: 990px) {
   .pricingTable {
     margin: 0 0 40px;
+    width: 336px;
+
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 768px) and (max-width:1400px) {
   .col-md-3 {
     flex: 0 0 auto;
-    width: 25%;
+    width: 336px;
   }
 }
 
 @media (min-width: 1200px) {
   .container {
-    max-width: 1404px;
+    max-width: 1454px;
   }
 }
