@@ -79,7 +79,7 @@
 }
 
 .footer-right-section .footer-stay {
-  padding: 20px;
+  padding: 22px;
   display: flex;
   width: 174px;
   height: 23px;
@@ -112,13 +112,13 @@
   flex-direction: row;
   align-items: flex-start;
   justify-content: center;
-  margin-top: 28px;
 }
 
 .footer-links-1 {
   display: inline-flex;
   flex-direction: column;
   list-style-type: none;
+  margin-top: 28px;
 }
 
 .footer-links-1 li {
@@ -136,6 +136,7 @@
   display: inline-flex;
   flex-direction: column;
   list-style-type: none;
+  margin-top: 28px;
 }
 
 .footer-links-2 li {
