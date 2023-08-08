@@ -1,4 +1,3 @@
-"use client";
 import "./mainsection.css";
 
 const Mainsection = () => {
