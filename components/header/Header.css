@@ -12,6 +12,15 @@ img {
   margin-top: 49px;
 }
 
+@media screen and (min-width: 480px) {
+  .logo-img {
+    position: relative;
+    width: 316px;
+    height: 76px;
+    margin-top: 49px;
+  }
+}
+
 .top-wrp {
   width: 675px;
   height: 36px;
