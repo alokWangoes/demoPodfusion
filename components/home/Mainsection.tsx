@@ -88,66 +88,6 @@ const Mainsection = () => {
                 </p>
               </div>
             </div>
-            <div className="col-md-4 col-xl-4 col-sm-12 mt-3">
-              <div className="block-section">
-                <img src="./image-2.png" />
-              </div>
-              <div className="block-content">
-                <h3>Automate your print on demand</h3>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur. Urna eget lectus
-                  tempor massa rutrum pellentesque.
-                </p>
-              </div>
-            </div>
-            <div className="col-md-4 col-xl-4 col-sm-12 mt-3">
-              <div className="block-section">
-                <img src="./image-3.png" />
-              </div>
-              <div className="block-content">
-                <h3>Automate your print on demand</h3>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur. A donec mauris
-                  faucibus luctus mauris vitae orci.
-                </p>
-              </div>
-            </div>
-            <div className="col-md-4 col-xl-4 col-sm-12 mt-3">
-              <div className="block-section">
-                <img src="./image-4.png" />
-              </div>
-              <div className="block-content">
-                <h3>Multiple print on demand providers</h3>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur. Fames magna amet
-                  mattis morbi sit nunc.
-                </p>
-              </div>
-            </div>{" "}
-            <div className="col-md-4 col-xl-4 col-sm-12 mt-3">
-              <div className="block-section">
-                <img src="./image-5.png" />
-              </div>
-              <div className="block-content">
-                <h3>Create your own automation flow</h3>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur. Fames magna amet
-                  mattis morbi sit nunc.
-                </p>
-              </div>
-            </div>{" "}
-            <div className="col-md-4 col-xl-4 col-sm-12 mt-3">
-              <div className="block-section">
-                <img src="./image-6.png" />
-              </div>
-              <div className="block-content">
-                <h3>Multiple print on demand providers</h3>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur. Fames magna amet
-                  mattis morbi sit nunc.
-                </p>
-              </div>
-            </div>
           </div>
         </div>
         <div className="container">

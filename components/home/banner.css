@@ -1,3 +1,9 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
 .banner-content span {
   height: 258px;
   width: 683px;
