@@ -82,17 +82,18 @@
   margin-left: 620px;
 }
 
-.toggle-wrapper ul {
-  float: left;
-  display: block;
-  width: 100%;
-  max-width: 326px;
-  border-radius: 1.6666666667rem;
-  margin: 0px auto;
-  margin-bottom: 40px;
-  background: #f36233;
-  text-align: center;
-  position: relative;
+.toggle-wrapper .monthly {
+  position: absolute;
+  margin-right: 90px;
+  width: 55px;
+  height: 14px;
+  flex-shrink: 0;
+  color: #fff;
+  font-family: Aclonica;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 
 .toggle-wrapper .toggle-inner {
@@ -129,20 +130,24 @@
 .bg-ellipse {
   background-image: url("../../public/subscriptionPlan-ellipse.svg");
   background-repeat: no-repeat;
+  background-position: inherit;
 }
 
 .bg-ellipse-premium {
   background-image: url("../../public/subscriptionPlan-ellipse2.svg");
   background-repeat: no-repeat;
+  background-position: left;
 }
 
 .bg-ellipse-pro {
   background-image: url("../../public/subscriptionPlan-ellipse3.svg");
   background-repeat: no-repeat;
+  background-position: bottom;
 }
 .bg-ellipse-enterprise {
   background-image: url("../../public/subscriptionPlan-ellipse4.svg");
   background-repeat: no-repeat;
+  background-position: bottom;
 }
 
 .pricingTable .pricingTable-header {
@@ -289,7 +294,7 @@
   font-family: Roboto Flex;
   font-size: 16px;
   font-style: normal;
-  text-align: justify;
+  text-align: initial;
   font-weight: 400;
   line-height: 15px;
   list-style-type: none;
@@ -312,7 +317,7 @@
   font-family: Roboto Flex;
   font-size: 16px;
   font-style: normal;
-  text-align: justify;
+  text-align: initial;
   font-weight: 400;
   line-height: 15px;
   list-style-type: none;
@@ -335,7 +340,7 @@
   font-family: Roboto Flex;
   font-size: 16px;
   font-style: normal;
-  text-align: justify;
+  text-align: initial;
   font-weight: 400;
   line-height: 15px;
   list-style-type: none;
@@ -358,7 +363,7 @@
   font-family: Roboto Flex;
   font-size: 16px;
   font-style: normal;
-  text-align: justify;
+  text-align: initial;
   font-weight: 400;
   line-height: 13.5px;
   list-style-type: none;
@@ -375,6 +380,7 @@
   width: 187.157px;
   height: 49px;
   padding: 20px 25px;
+
   margin-top: 92px;
   justify-content: center;
   align-items: center;
@@ -399,11 +405,11 @@
 
 .pricingTable .pricingTable-signup-premium .try-now-btn-premium {
   display: flex;
+  margin: auto;
   width: 207px;
   height: 49px;
   padding: 20px 25px;
-  margin-left: 66px;
-  margin-top: 92px;
+  margin-top: 88px;
   justify-content: center;
   align-items: center;
   gap: 25px;
@@ -465,7 +471,7 @@
   margin: auto;
   width: 207px;
   height: 49px;
-  margin-top: 32px;
+  margin-top: 42px;
   padding: 20px 25px;
   justify-content: center;
   align-items: center;
@@ -527,7 +533,7 @@
   display: flex;
   margin: auto;
   width: 207px;
-  margin-top: 30px;
+  margin-top: 36px;
   height: 49px;
   padding: 20px 25px;
   justify-content: center;
@@ -593,7 +599,6 @@
   flex-shrink: 0;
   z-index: 999;
   position: relative;
-  right: 36px;
   bottom: 200px;
 }
 
@@ -602,18 +607,16 @@
   height: 216px;
   flex-shrink: 0;
   position: relative;
-  right: 36px;
 }
 
 @media only screen and (max-width: 990px) {
   .pricingTable {
     margin: 0 0 40px;
     width: 336px;
-
   }
 }
 
-@media (min-width: 768px) and (max-width:1400px) {
+@media (min-width: 768px) and (max-width: 1400px) {
   .col-md-3 {
     flex: 0 0 auto;
     width: 336px;

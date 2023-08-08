@@ -78,6 +78,7 @@ const SubscriptionPlan = () => {
         </div>
 
         <div className="toggle-wrapper">
+          <span className="monthly">Monthly</span>
           <span className="toggle-inner"></span>
         </div>
       </div>
@@ -218,12 +219,12 @@ const SubscriptionPlan = () => {
               </div>
             </div>
           </div>
-          <span className="vector-ellipse-2">
+          <div className="vector-ellipse-2">
             <img src="pricing-vector-ellipse.svg" />
-          </span>
-          <span className="vector-ellipse-1">
+          </div>
+          <div className="vector-ellipse-1">
             <img src="pricing-vector-ellipse.svg" />
-          </span>
+          </div>
         </div>
       </div>
     </div>
