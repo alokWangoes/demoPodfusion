@@ -13,6 +13,15 @@ img {
   /* margin-left: 41px; */
 }
 
+@media screen and (min-width: 480px) {
+  .logo-img {
+    position: relative;
+    width: 316px;
+    height: 76px;
+    margin-top: 49px;
+  }
+}
+
 .top-wrp {
   width: 675px;
   height: 36px;
@@ -44,9 +53,12 @@ img {
   background-position: center;
   position: relative;
   z-index: 0;
-  margin: 0 auto;
   /* width: 1454px;
   height: 1045px; */
+  /* width: 1454px; */
+  /* min-width: 1455px; */
+  margin: 0 auto;
+  height: 1045px;
   flex-shrink: 0;
 }
 .main-wrp:before {
@@ -59,6 +71,8 @@ img {
   margin: 0 auto;
   /* width: 1454px;
   height: 1045px; */
+  /* width: 1454px; */
+  height: 1045px;
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -242,3 +256,5 @@ a.button-primary {
     max-width: 1454px;
   }
 }
+
+
