@@ -91,3 +91,98 @@
     max-width: 1454px;
   }
 }
+
+
+@media only screen and (max-width: 1365px) {
+
+  .copyright-wrapper {
+    display: flex;
+    /* width: 1454px; */
+    margin: 0 auto;
+    height: 54px;
+    padding: 12px 58px;
+    align-items: flex-end;
+    background-color: #fff;
+  }
+  
+  .copy-right-name {
+    color: #5972c9;
+    font-family: Roboto Serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 330;
+    line-height: normal;
+  }
+  
+  .copy-right-img {
+    margin: 4px;
+    width: 9px;
+    height: 9px;
+  }
+  
+  .intellectual-policy {
+    display: flex;
+    padding: 2px 0px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 2px;
+    margin-left: 58px;
+    color: #3d318a;
+    font-family: ZCOOL XiaoWei;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 330;
+    line-height: normal;
+  }
+  
+  .terms-service {
+    display: flex;
+    padding: 2px 0px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 3px;
+    color: #3d318a;
+    margin-left: 58px;
+  
+    font-family: ZCOOL XiaoWei;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 330;
+    line-height: normal;
+  }
+  
+  .privacy-policy {
+    display: flex;
+    padding: 2px 0px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 2px;
+    color: #3d318a;
+    margin-left: 58px;
+  
+    font-family: ZCOOL XiaoWei;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 330;
+    line-height: normal;
+  }
+  
+  .security {
+    display: flex;
+    padding: 2px 0px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 2px;
+    margin-left: 58px;
+  
+    color: #3d318a;
+    font-family: ZCOOL XiaoWei;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 330;
+    line-height: normal;
+  }
+  
+
+
+}

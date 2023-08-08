@@ -270,12 +270,233 @@
   top: 25px;
 }
 
-@media (min-width: 1200px) {
+
+/* Here is styling for 1200 px desktop screen   */
+
+@media only screen and (max-width: 1365px) {
+
+  .footer-container {
+    /* width: 1454px; */
+    height: 421px;
+    margin: 0 auto;
+    flex-shrink: 0;
+    background-color: #eac0cd;
+    background-image: url("../../public/footer-vector.svg");
+    background-repeat: no-repeat;
+    background-position-y: 231px;
+    background-size: contain;
+  }
+  
+  .footer-left-section {
+    display: inline-flex;
+    flex-direction: column;
+  }
+  
+  .footer-logo {
+    width: 251px;
+    height: 62px;
+    flex-shrink: 0;
+    margin-top: 38px;
+    margin-left: 38px;
+    display: flex;
+  }
+  
+  .footer-second {
+    /* width: 1135px; */
+    height: 157px;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .footer-second span {
+    width: 294px;
+    height: 157px;
+    margin-top: 42px;
+    margin-left: 38px;
+    flex-shrink: 0;
+    color: #3d318a;
+    font-family: Roboto Serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 328;
+    line-height: normal;
+  }
+  
+  .footer-right-section {
+    height: 36px;
+    flex-shrink: 0;
+    border-radius: 41px;
+    margin-top: 21px;
+    margin-left: 45px;
+    
+    display: flex;
+  }
+  
+  .footer-right-section .quick-links {
+    width: 147px;
+    height: 19px;
+    padding: 10px 20px;
+    margin-left: 41px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    flex-shrink: 0;
+    color: #fff;
+    font-family: Roboto Serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 495px;
+    line-height: normal;
+  }
+  
+  .footer-right-section .footer-stay {
+    padding: 18px;
+    display: flex;
+    width: 144px;
+    height: 19px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    margin-left: 106px;
+    flex-shrink: 0;
+    color: #fff;
+    font-family: Roboto Serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 495;
+    line-height: normal;
+  }
+  
+  .footer-right-section .footer-icons {
+    margin-left: 222px;
+    padding: 7px;
+  }
+  
+  .footer-right-section .footer-social-icons-img {
+    width: 21px;
+    height: 20px;
+    flex-shrink: 0;
+  }
+  
+  .footer-link {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  
+  .footer-links-1 {
+    display: inline-flex;
+    flex-direction: column;
+    list-style-type: none;
+    margin-top: 19px;
+    margin-left: 21px;
+    width: 92px;
+    height: 142px;
+  }
+  
+  .footer-links-1 li {
+    color: #3d318a;
+    padding: 13px;
+  
+    font-family: Roboto Serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 330;
+    line-height: normal;
+  }
+  
+  .footer-links-2 {
+    display: inline-flex;
+    flex-direction: column;
+    list-style-type: none;
+    margin-top: 28px;
+    margin-left: 28px;
+    width: 62px;
+    height: 134px;
+  }
+  
+  .footer-links-2 li {
+    color: #3d318a;
+    padding: 13px;
+    font-family: Roboto Serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 330;
+    line-height: normal;
+  }
+
   .container {
     max-width: 1454px;
   }
 
   .footer-right-section {
-    max-width: 942px;
+    /* max-width: 700px; */
   }
+  .email-input-wrapper .input-tab {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 9px;
+    height: 50px;
+    margin-top: 10px;
+    margin-left: 82.53px;    
+  }
+
+
+  .email-title-heading {
+  display: flex;
+  color: #3d318a;
+  font-family: Roboto Serif;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 412px;
+  line-height: normal;
+  margin-top: 14px;
+  margin-left: 83px;
+}
+
+.input-tab .email-input {
+  color: #3d318a;
+  font-family: Roboto Flex;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 330;
+  line-height: normal;
+  background: linear-gradient(15deg, #fff 49.84%, #fff 100%);
+  display: flex;
+  width: 427px;
+  height: 50px;
+  padding: 3px 0px 3px 20px;
+  align-items: center;
+  gap: 247px;
+  border-radius: 17px;
+  position: absolute;
+  float: left;
+}
+
+.input-tab .btn-send {
+  position: relative;
+  float: right;
+  display: flex;
+  height: 48px;
+  width: 179px;
+  margin-left: 247px;
+  padding: 20px 25px;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  flex: 1 0 0;
+  border-radius: 15px;
+  font-size: 21px;
+  font-weight: 400;
+ 
+}
+
+.error-msg{
+  font-family: Roboto Serif;
+  margin-left: 81px;
+  margin-top: 7px;
+}
+
 }
