@@ -609,22 +609,93 @@
   position: relative;
 }
 
-@media only screen and (max-width: 990px) {
+/* @media only screen and (max-width: 990px) {
   .pricingTable {
     margin: 0 0 40px;
     width: 336px;
   }
-}
+} */
 
-@media (min-width: 768px) and (max-width: 1400px) {
+/* @media (min-width: 768px) and (max-width: 1400px) {
   .col-md-3 {
     flex: 0 0 auto;
     width: 336px;
   }
-}
+} */
 
-@media (min-width: 1200px) {
+/* @media (min-width: 1200px) {
   .container {
     max-width: 1454px;
+  }
+} */
+
+
+@media (min-width: 1200px) and (max-width:1300px) {
+
+  .container{
+    max-width: 1400px;
+    }
+  .subscription-plan-container{
+    width: 100%;
+  }
+
+  .main-pricing h3{
+    width: 990px;
+    height: 158px;
+    margin-left: 90px;
+  }
+
+  .main-pricing p{
+    height: 70px;
+    width: 650px;
+    margin-left: 257px;
+
+  }
+
+  .toggle-wrapper{
+    width: 213px;
+    height: 58px;
+    margin-left: 460px;
+
+  }
+
+  .pricingTable .pricingTable-signup .try-now-btn{
+    width: 170.157px;
+    height: 45px;
+    padding: 20px 20px;
+
+  }
+
+  .pricingTable .pricingTable-signup-premium .try-now-btn-premium{
+    width: 180px;
+    height: 45px;
+    padding: 20px 25px;
+    margin-top: 100px;
+  }
+
+  .pricingTable .pricingTable-signup-pro .try-now-btn-pro{
+    margin-top: 10px;
+    width: 180px;
+    height: 45px;
+    padding: 20px 25px;
+  }
+
+  .pricingTable .pricingTable-signup-enterprise .try-now-btn-enterprise{
+    margin-top: 6px;
+    width: 180px;
+    height: 45px;
+    padding: 20px 25px;
+  }
+
+  .vector-ellipse-1{
+    width: 100%;
+    height: 143px;
+    margin-left: 40px;
+  }
+
+  .vector-ellipse-2{
+    width: 100%;
+    height: 143px;
+    margin-top: 40px;
   }
 }
