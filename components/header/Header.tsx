@@ -1,16 +1,38 @@
-"use client"
+"use client";
 import Link from "next/link";
 import "./Header.css";
 import { useState } from "react";
 const Header = () => {
- 
-  const [open , setOpen] = useState <any> (false)
+  const [open, setOpen] = useState<any>(false);
   return (
     <>
       <div className="container" style={{ zIndex: "999" }}>
-      <div className="text-right mx-5 " style={{display : open ? "block" : "none" , }} >
-            
-      </div>
+        <div
+          className="text-right mx-5 "
+          style={{ display: open ? "block" : "none" }}
+        >
+          <div
+
+          // className="languages-header"
+          //   style={{
+          //     margin-left: 801px;
+          //     text-align: center;
+          //     display: block;
+          //     position: fixed;
+          //     color: white;
+          //     margin-top: 107px;
+          //     font-size: 18px;
+          //     opacity: 1.25;
+          //     font-family: INHERIT;
+          //   }}
+          >
+            {/* <span>NL</span>
+            <br />
+            <span>FR</span>
+            <br />
+            <span>DE</span> */}
+          </div>
+        </div>
         <div className="row">
           <div className="col-md-3 col-sm-12 col-xl-3">
             <div className="logo-img">
@@ -26,7 +48,7 @@ const Header = () => {
               </div>
               <div className="flag-wrp">
                 <img src="/Flags.png" alt="flag" />
-                <h4 onClick={ ()=>setOpen(!open)}>EN</h4>
+                <h4 onClick={() => setOpen(!open)}>EN</h4>
                 <img src="/flat-color-icons_settings.svg" alt="icon-settign" />
               </div>
             </div>
