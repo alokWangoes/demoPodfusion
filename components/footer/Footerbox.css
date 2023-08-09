@@ -47,10 +47,11 @@
 
 .footer-right-section {
   height: 44px;
+  width: 942px;
   flex-shrink: 0;
   border-radius: 50px;
   margin-top: 25px;
-  margin-left: 55px;
+  margin-left: 35px;
   background: linear-gradient(
     12deg,
     #4e4495 49.84%,
@@ -270,168 +271,74 @@
   top: 25px;
 }
 
-
-/* Here is styling for 1200 px desktop screen   */
-
-@media only screen and (max-width: 1365px) {
-
-  .footer-container {
-    /* width: 1454px; */
-    height: 421px;
-    margin: 0 auto;
-    flex-shrink: 0;
-    background-color: #eac0cd;
-    background-image: url("../../public/footer-vector.svg");
-    background-repeat: no-repeat;
-    background-position-y: 231px;
-    background-size: contain;
-  }
-  
-  .footer-left-section {
-    display: inline-flex;
-    flex-direction: column;
-  }
-  
-  .footer-logo {
-    width: 251px;
-    height: 62px;
-    flex-shrink: 0;
-    margin-top: 38px;
-    margin-left: 38px;
-    display: flex;
-  }
-  
-  .footer-second {
-    /* width: 1135px; */
-    height: 157px;
-    display: flex;
-    flex-direction: row;
-  }
-  
-  .footer-second span {
-    width: 294px;
-    height: 157px;
-    margin-top: 42px;
-    margin-left: 38px;
-    flex-shrink: 0;
-    color: #3d318a;
-    font-family: Roboto Serif;
-    font-size: 17px;
-    font-style: normal;
-    font-weight: 328;
-    line-height: normal;
-  }
-  
-  .footer-right-section {
-    height: 36px;
-    flex-shrink: 0;
-    border-radius: 41px;
-    margin-top: 21px;
-    margin-left: 45px;
-    
-    display: flex;
-  }
-  
-  .footer-right-section .quick-links {
-    width: 147px;
-    height: 19px;
-    padding: 10px 20px;
-    margin-left: 41px;
-    justify-content: center;
-    align-items: center;
-    flex-shrink: 0;
-    flex-shrink: 0;
-    color: #fff;
-    font-family: Roboto Serif;
-    font-size: 17px;
-    font-style: normal;
-    font-weight: 495px;
-    line-height: normal;
-  }
-  
-  .footer-right-section .footer-stay {
-    padding: 18px;
-    display: flex;
-    width: 144px;
-    height: 19px;
-    justify-content: center;
-    align-items: center;
-    flex-shrink: 0;
-    margin-left: 106px;
-    flex-shrink: 0;
-    color: #fff;
-    font-family: Roboto Serif;
-    font-size: 17px;
-    font-style: normal;
-    font-weight: 495;
-    line-height: normal;
-  }
-  
-  .footer-right-section .footer-icons {
-    margin-left: 222px;
-    padding: 7px;
-  }
-  
-  .footer-right-section .footer-social-icons-img {
-    width: 21px;
-    height: 20px;
-    flex-shrink: 0;
-  }
-  
-  .footer-link {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: center;
-  }
-  
-  .footer-links-1 {
-    display: inline-flex;
-    flex-direction: column;
-    list-style-type: none;
-    margin-top: 19px;
-    margin-left: 21px;
-    width: 92px;
-    height: 142px;
-  }
-  
-  .footer-links-1 li {
-    color: #3d318a;
-    padding: 13px;
-  
-    font-family: Roboto Serif;
-    font-size: 17px;
-    font-style: normal;
-    font-weight: 330;
-    line-height: normal;
-  }
-  
-  .footer-links-2 {
-    display: inline-flex;
-    flex-direction: column;
-    list-style-type: none;
-    margin-top: 28px;
-    margin-left: 28px;
-    width: 62px;
-    height: 134px;
-  }
-  
-  .footer-links-2 li {
-    color: #3d318a;
-    padding: 13px;
-    font-family: Roboto Serif;
-    font-size: 17px;
-    font-style: normal;
-    font-weight: 330;
-    line-height: normal;
-  }
-
+@media (min-width: 1200px) and (max-width: 1450px) {
   .container {
-    max-width: 1454px;
+    max-width: 1200px;
+  }
+  .footer-container {
+    width: 100%;
+    height: 510px;
+  }
+
+  .footer-logo {
+    width: 240.288px;
+    height: 70px;
+    margin-top: 46px;
+    margin-left: 30px;
+  }
+
+  .footer-second span {
+    width: 322px;
+    margin-left: 30px;
+    margin-top: 46px;
   }
 
   .footer-right-section {
-    /* max-width: 700px; */
+    width: 770px;
+    margin-left: 85px;
+  }
+  .footer-right-section .quick-links {
+    margin-left: 30px;
+  }
+  .footer-right-section .footer-stay {
+    margin-left: 90.93px;
+  }
+
+  .footer-right-section .footer-icons {
+    margin-left: 168.67px;
+  }
+
+  .footer-links-1 {
+    margin-left: 10px;
+    margin-top: 17px;
+    width: 136px;
+    height: 208px;
+  }
+
+  .footer-links-2 {
+    margin-top: 25px;
+    margin-left: 30px;
+  }
+  .email-input-wrapper .input-tab {
+    margin-left: 80px;
+  }
+
+  .input-tab .email-input {
+    width: 450px;
+    height: 61px;
+  }
+  .email-title-heading {
+    margin-left: 82px;
+  }
+
+  .input-tab .btn-send {
+    height: 58px;
+    width: 180px;
+    margin-left: 270px;
+  }
+
+  .footer-vector-bg {
+    top: 45px;
   }
   .email-input-wrapper .input-tab {
     display: inline-flex;
