@@ -93,6 +93,7 @@ img {
 }
 .button {
   padding: 12px 50px;
+
   border-radius: 13px;
   text-decoration: none;
   text-align: center;
@@ -252,7 +253,7 @@ a.button-primary {
 }
 
 /* Desktop and Laptop Styles */
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 990px) and (max-width: 1400px) {
   .container {
     max-width: 1400px;
   }
@@ -302,6 +303,56 @@ a.button-primary {
     height: 45px;
     width: 654px;
     margin-left: 20px;
-    font-size: 10px;
+    font-size: 20px;
+  }
+}
+
+@media only screen and (min-width: 1401px) {
+  .container {
+    max-width: 1450px;
+  }
+
+  .main-wrp {
+    background-image: url("../../public/slider-svg.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* margin: 0 auto; */
+    height: 1045px;
+  }
+
+  .logo-img {
+    width: 100%;
+    margin-top: 49px;
+    margin-left: 41px;
+  }
+
+  .top-wrp {
+    margin-top: 65px;
+    margin-left: 50px;
+  }
+  .col-md-3.col-sm-12.col-xl-3.right-section {
+    display: inline-block;
+    align-items: center;
+    margin-top: 65px;
+  }
+
+  a.button-primary {
+    margin-left: 29px;
+    width: 77px;
+    height: 24px;
+    flex-shrink: 0;
+  }
+
+  .button {
+    padding: 18px 40px;
+  }
+
+  .bottom-wrp.col-md-6.col-xl-6 {
+    margin-top: 20px;
+    height: 45px;
+    width: 717px;
+    margin-left: 55px;
+    font-size: 20px;
   }
 }

@@ -271,13 +271,9 @@
   top: 25px;
 }
 
-@media (min-width: 1200px) and (max-width: 1450px) {
+@media (min-width: 1200px) and (max-width: 1400px) {
   .container {
-    max-width: 1200px;
-  }
-  .footer-container {
-    width: 100%;
-    height: 510px;
+    max-width: 1400px;
   }
 
   .footer-logo {
@@ -335,6 +331,73 @@
     height: 58px;
     width: 180px;
     margin-left: 270px;
+  }
+
+  .footer-vector-bg {
+    top: 45px;
+  }
+}
+
+@media only screen and (min-width: 1401px) {
+  .container {
+    max-width: 1454px;
+  }
+  .footer-container {
+    width: 100%;
+    height: 510px;
+  }
+
+  .footer-logo {
+    width: 305.288px;
+    height: 76px;
+    margin-top: 46px;
+    margin-left: 46px;
+  }
+
+  .footer-second span {
+    width: 365px;
+    height: 190px;
+    margin-left: 46px;
+    margin-top: 46px;
+    font-size: 20px;
+  }
+
+  .footer-right-section {
+    width: 942px;
+    margin-left: 55px;
+  }
+  .footer-right-section .quick-links {
+    margin-left: 50px;
+  }
+  .footer-right-section .footer-stay {
+    margin-left: 128.93px;
+  }
+
+  .footer-right-section .footer-icons {
+    margin-left: 268.67px;
+  }
+
+  .footer-links-1 {
+    margin-left: 33px;
+    margin-top: 28px;
+    width: 136px;
+    height: 208px;
+  }
+
+  .footer-links-2 {
+    margin-top: 28px;
+    margin-left: 34px;
+  }
+
+  .input-tab .email-input {
+    width: 559px;
+    height: 61px;
+  }
+
+  .input-tab .btn-send {
+    height: 58px;
+    width: 217px;
+    margin-left: 343px;
   }
 
   .footer-vector-bg {

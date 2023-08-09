@@ -380,7 +380,7 @@
   width: 187.157px;
   height: 49px;
   padding: 20px 25px;
-
+  border: none;
   margin-top: 92px;
   justify-content: center;
   align-items: center;
@@ -407,6 +407,7 @@
   display: flex;
   margin: auto;
   width: 207px;
+  border: none;
   height: 49px;
   padding: 20px 25px;
   margin-top: 88px;
@@ -470,6 +471,7 @@
   display: flex;
   margin: auto;
   width: 207px;
+  border: none;
   height: 49px;
   margin-top: 42px;
   padding: 20px 25px;
@@ -534,6 +536,7 @@
   margin: auto;
   width: 207px;
   margin-top: 36px;
+  border: none;
   height: 49px;
   padding: 20px 25px;
   justify-content: center;
@@ -629,7 +632,7 @@
   }
 } */
 
-@media (min-width: 1200px) and (max-width: 1450px) {
+@media (min-width: 1200px) and (max-width: 1400px) {
   .container {
     max-width: 1200px;
   }
@@ -666,6 +669,93 @@
     width: 170.157px;
     height: 45px;
     padding: 20px 20px;
+  }
+
+  .pricingTable .pricingTable-signup-premium .try-now-btn-premium {
+    width: 180px;
+    height: 45px;
+    padding: 20px 25px;
+    margin-top: 100px;
+  }
+
+  .pricingTable .pricingTable-signup-pro .try-now-btn-pro {
+    margin-top: 10px;
+    width: 180px;
+    height: 45px;
+    padding: 20px 25px;
+  }
+
+  .pricingTable .pricingTable-signup-enterprise .try-now-btn-enterprise {
+    margin-top: 6px;
+    width: 180px;
+    height: 45px;
+    padding: 20px 25px;
+  }
+
+  .vector-ellipse-1 {
+    width: 100%;
+    height: 143px;
+  }
+
+  .vector-ellipse-2 {
+    width: 100%;
+    height: 143px;
+    margin-top: 40px;
+  }
+}
+
+@media only screen and (min-width: 1401px) {
+  .container {
+    max-width: 1454px;
+  }
+  .subscription-plan-container {
+    width: 100%;
+  }
+
+  .main-pricing h3 {
+    width: 1117px;
+    height: 158px;
+    margin-left: 150px;
+  }
+
+  .main-pricing p {
+    height: 70px;
+    width: 732px;
+    margin-left: 350px;
+  }
+
+  .toggle-wrapper {
+    width: 213px;
+    height: 58px;
+    margin-left: 620px;
+  }
+  .col-md-3 {
+    flex: 0 0 auto;
+    width: 23%;
+    margin-left: 27px;
+  }
+
+  .pricingTable .pricing-content li {
+    margin: 0px 0px 19px;
+  }
+
+  .pricingTable .pricing-content-second-child li {
+    margin: 0 0 11px;
+  }
+
+  .pricingTable .pricing-content-third-child li {
+    margin: 0px 0px 14px;
+  }
+
+  .pricingTable .pricing-content-fourth-child li {
+    margin: 0px 0px 13px;
+  }
+
+  .pricingTable .pricingTable-signup .try-now-btn {
+    width: 170.157px;
+    height: 45px;
+    padding: 20px 20px;
+    border: none;
   }
 
   .pricingTable .pricingTable-signup-premium .try-now-btn-premium {
