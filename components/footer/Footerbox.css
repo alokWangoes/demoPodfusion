@@ -1,5 +1,4 @@
 .footer-container {
-  /* width: 1454px; */
   height: 510px;
   margin: 0 auto;
   flex-shrink: 0;
@@ -269,6 +268,11 @@
   height: 216px;
   flex-shrink: 0;
   top: 25px;
+}
+.error-msg{
+  font-family: Roboto Serif;
+  margin-left: 95px;
+  margin-top: 7px;
 }
 
 @media (min-width: 1200px) and (max-width: 1450px) {
