@@ -205,7 +205,8 @@
 }
 
 .pricingTable .pricingTable-header .price-value .line-1 hr {
-  height: 1px;
+  height: 2px;
+  opacity: 0.5;
   background: #f8b1c7;
 }
 
@@ -222,7 +223,8 @@
 }
 
 .pricingTable .pricingTable-header .price-value-premium .line-1 hr {
-  height: 1px;
+  height: 2px;
+  opacity: 0.5;
   background: #3d318a;
 }
 
@@ -255,7 +257,8 @@
 }
 
 .pricingTable .pricingTable-header .price-value-pro .line-1 hr {
-  height: 1px;
+  height: 2px;
+  opacity: 1;
   width: 223px;
   color: #fac18c;
 }
@@ -273,7 +276,8 @@
 }
 
 .pricingTable .pricingTable-header .price-value-enterprise .line-1 hr {
-  height: 1px;
+  height: 2px;
+  opacity: 1;
   color: #4562a6;
 }
 
