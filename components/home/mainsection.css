@@ -272,7 +272,7 @@ h3 img {
 
   .col-xl-4 {
     flex: 0 0 auto;
-    width: 22.333333%;
+    width: 21.333333%;
     margin-left: 101px;
   }
 
@@ -345,6 +345,6 @@ h3 img {
   .right-part {
     width: 427px;
     height: 518px;
-    margin-left: 65px;
+    margin-left: 14px;
   }
 }

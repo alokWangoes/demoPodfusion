@@ -1,13 +1,11 @@
 .footer-container {
   /* width: 1454px; */
-  height: 510px;
+  height: 459px;
   margin: 0 auto;
   flex-shrink: 0;
-  background-color: #eac0cd;
-  background-image: url("../../public/footer-vector.svg");
+  background-image: url("../../public/bg-2.svg");
   background-repeat: no-repeat;
-  background-position-y: 280px;
-  background-size: contain;
+  background-size: cover;
 }
 
 .footer-left-section {
@@ -344,7 +342,7 @@
   }
   .footer-container {
     width: 100%;
-    height: 510px;
+    height: 459x;
   }
 
   .footer-logo {

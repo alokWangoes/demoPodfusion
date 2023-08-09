@@ -1,8 +1,12 @@
 .subscription-plan-container {
   /* width: 1454px; */
+  margin: 0 auto;
   height: 1277px;
   flex-shrink: 0;
-  background: #dcb4f5;
+  background-image: url("../../public/bg-1.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .main-pricing h3 {
@@ -110,12 +114,7 @@
   height: 642px;
   text-align: center;
   border-radius: 105px;
-  background: linear-gradient(
-    2deg,
-    rgba(42, 72, 168, 0.4) 2.85%,
-    #3d318a 49.12%,
-    #fff 120%
-  );
+  background: linear-gradient(2deg, rgba(30, 30, 30, 0.40) 0%, #3D318A 0%, #FFF 140%);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
   overflow: hidden;
   border-width: 3px;
@@ -136,7 +135,7 @@
 .bg-ellipse-premium {
   background-image: url("../../public/subscriptionPlan-ellipse2.svg");
   background-repeat: no-repeat;
-  background-position: left;
+  background-position: right;
 }
 
 .bg-ellipse-pro {
@@ -195,7 +194,7 @@
 }
 
 .pricingTable .pricingTable-header .price-value {
-  margin: 30px;
+  margin: 30px 3px;
   color: #f8b1c7;
   text-align: center;
   font-family: Roboto Serif;
@@ -211,7 +210,7 @@
 }
 
 .pricingTable .pricingTable-header .price-value-premium {
-  margin: 30px;
+  margin: 30px 3px;
 
   color: #3d318a;
   text-align: center;
@@ -228,7 +227,7 @@
 }
 
 .pricingTable .pricingTable-header .price-value-pro {
-  margin: 30px;
+  margin: 30px 3px;
 
   color: #fac18c;
   text-align: center;
@@ -252,17 +251,17 @@
   float: right;
   padding: 10px 11px;
   position: relative;
-  left: 68px;
+  left: 37px;
 }
 
 .pricingTable .pricingTable-header .price-value-pro .line-1 hr {
   height: 1px;
-  width: 200px;
+  width: 223px;
   color: #fac18c;
 }
 
 .pricingTable .pricingTable-header .price-value-enterprise {
-  margin: 30px;
+  margin: 30px 3px;
 
   text-align: center;
   color: #4562a6;
@@ -638,6 +637,7 @@
   }
   .subscription-plan-container {
     width: 100%;
+    
   }
 
   .main-pricing h3 {
@@ -708,9 +708,13 @@
   .container {
     max-width: 1454px;
   }
+
+
+ 
   .subscription-plan-container {
-    width: 100%;
-  }
+  width: 100%;  
+ 
+   }
 
   .main-pricing h3 {
     width: 1117px;

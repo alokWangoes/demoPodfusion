@@ -20,9 +20,9 @@ const Header = () => {
           <div className="col-md-6 col-sm-12 col-xl-6">
             <div className="top-wrp">
               <div className="social-icons">
-                <img src="/linkdin.svg" alt="linkedlin" />
-                <img src="/facebook.svg" alt="linkedlin" />
-                <img src="/twitter.svg" alt="linkedlin" />
+                <img src="/bxl_linkedin.svg" alt="linkedlin" />
+                <img src="/ri_facebook-fill.svg" alt="linkedlin" />
+                <img src="/mdi_twitter.svg" alt="linkedlin" />
               </div>
               <div className="flag-wrp">
                 <img src="/Flags.png" alt="flag" />
