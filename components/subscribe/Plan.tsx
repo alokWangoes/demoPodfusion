@@ -14,7 +14,7 @@ const Plan = () => {
         className="text-center pt-20 plan-wrp"
         style={{ backgroundColor: "#DCB4F5" }}
       >
-        <div className="grid gap-10 m-auto" >
+        <div className="grid gap-10 m-auto">
           {/* <h3 className="font-aclonica font text-4xl text-white">
             Choose the plan that fits your business
           </h3>
@@ -49,7 +49,7 @@ const Plan = () => {
                   }
                 >
                   <div className="grid grid-cols-1 md:grid-cols-4 sm: grid-cols-2 gap-10 items-start pb-16">
-                  <h2>Content 1</h2>
+                    <h2>Content 1</h2>
                   </div>
                 </div>
 
@@ -59,7 +59,6 @@ const Plan = () => {
                   }
                 >
                   <h2>Content 2</h2>
-                
                 </div>
               </div>
             </div>

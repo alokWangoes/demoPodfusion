@@ -28,14 +28,30 @@ const Header = () => {
                 <div className=" " style={{ display: open ? "block" : "none" }}>
                   <div className="languages-header">
                     <div className="inner-language-div">
-                      <img width={18} height={14} src="/flag-1.svg" className="mt-1"  />
+                      <img
+                        width={18}
+                        height={14}
+                        src="/flag-1.svg"
+                        className="mt-1"
+                      />
                       <span>NL</span>
                     </div>
                     <div className="inner-language-div">
-                      <img  width={18} height={14} src="/flag-2.svg" className="mt-1" />
+                      <img
+                        width={18}
+                        height={14}
+                        src="/flag-2.svg"
+                        className="mt-1"
+                      />
                       <span>FR</span>
-                    </div>   <div className="inner-language-div">
-                      <img width={18} height={14} src="/flag-3.svg" className="mt-1"/>
+                    </div>{" "}
+                    <div className="inner-language-div">
+                      <img
+                        width={18}
+                        height={14}
+                        src="/flag-3.svg"
+                        className="mt-1"
+                      />
                       <span>DE</span>
                     </div>
                   </div>
