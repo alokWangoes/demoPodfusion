@@ -112,7 +112,7 @@ const Footerbox = () => {
                       SEND
                     </button>
                   </div>
-                  <div className="text-danger"> {errors.email?.message}</div>
+                  <div className="text-danger error-msg"> {errors.email?.message}</div>
                 </form>
               </div>
             </div>
