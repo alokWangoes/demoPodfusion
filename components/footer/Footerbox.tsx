@@ -118,10 +118,6 @@ const Footerbox = () => {
             </div>
           </div>
         </div>
-
-        <span className="footer-vector-bg">
-          <img src="footer-vector-svg2.svg" />
-        </span>
       </div>
     </div>
   );

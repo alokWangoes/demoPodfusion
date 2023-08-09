@@ -1,8 +1,12 @@
 .subscription-plan-container {
   /* width: 1454px; */
+  margin: 0 auto;
   height: 1277px;
   flex-shrink: 0;
-  background: #dcb4f5;
+  background-image: url("../../public/bg-1.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .main-pricing h3 {
@@ -110,12 +114,7 @@
   height: 642px;
   text-align: center;
   border-radius: 105px;
-  background: linear-gradient(
-    2deg,
-    rgba(42, 72, 168, 0.4) 2.85%,
-    #3d318a 49.12%,
-    #fff 120%
-  );
+  background: linear-gradient(2deg, rgba(30, 30, 30, 0.40) 0%, #3D318A 0%, #FFF 140%);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
   overflow: hidden;
   border-width: 3px;
@@ -136,7 +135,7 @@
 .bg-ellipse-premium {
   background-image: url("../../public/subscriptionPlan-ellipse2.svg");
   background-repeat: no-repeat;
-  background-position: left;
+  background-position: right;
 }
 
 .bg-ellipse-pro {
@@ -195,7 +194,7 @@
 }
 
 .pricingTable .pricingTable-header .price-value {
-  margin: 30px;
+  margin: 30px 3px;
   color: #f8b1c7;
   text-align: center;
   font-family: Roboto Serif;
@@ -206,12 +205,13 @@
 }
 
 .pricingTable .pricingTable-header .price-value .line-1 hr {
-  height: 1px;
+  height: 2px;
+  opacity: 0.5;
   background: #f8b1c7;
 }
 
 .pricingTable .pricingTable-header .price-value-premium {
-  margin: 30px;
+  margin: 30px 3px;
 
   color: #3d318a;
   text-align: center;
@@ -223,12 +223,13 @@
 }
 
 .pricingTable .pricingTable-header .price-value-premium .line-1 hr {
-  height: 1px;
+  height: 2px;
+  opacity: 0.5;
   background: #3d318a;
 }
 
 .pricingTable .pricingTable-header .price-value-pro {
-  margin: 30px;
+  margin: 30px 3px;
 
   color: #fac18c;
   text-align: center;
@@ -252,17 +253,18 @@
   float: right;
   padding: 10px 11px;
   position: relative;
-  left: 68px;
+  left: 37px;
 }
 
 .pricingTable .pricingTable-header .price-value-pro .line-1 hr {
-  height: 1px;
-  width: 200px;
+  height: 2px;
+  opacity: 1;
+  width: 223px;
   color: #fac18c;
 }
 
 .pricingTable .pricingTable-header .price-value-enterprise {
-  margin: 30px;
+  margin: 30px 3px;
 
   text-align: center;
   color: #4562a6;
@@ -274,7 +276,8 @@
 }
 
 .pricingTable .pricingTable-header .price-value-enterprise .line-1 hr {
-  height: 1px;
+  height: 2px;
+  opacity: 1;
   color: #4562a6;
 }
 
@@ -380,7 +383,7 @@
   width: 187.157px;
   height: 49px;
   padding: 20px 25px;
-
+  border: none;
   margin-top: 92px;
   justify-content: center;
   align-items: center;
@@ -407,6 +410,7 @@
   display: flex;
   margin: auto;
   width: 207px;
+  border: none;
   height: 49px;
   padding: 20px 25px;
   margin-top: 88px;
@@ -470,6 +474,7 @@
   display: flex;
   margin: auto;
   width: 207px;
+  border: none;
   height: 49px;
   margin-top: 42px;
   padding: 20px 25px;
@@ -534,6 +539,7 @@
   margin: auto;
   width: 207px;
   margin-top: 36px;
+  border: none;
   height: 49px;
   padding: 20px 25px;
   justify-content: center;
@@ -629,12 +635,13 @@
   }
 } */
 
-@media (min-width: 1200px) and (max-width: 1450px) {
+@media (min-width: 1200px) and (max-width: 1400px) {
   .container {
     max-width: 1200px;
   }
   .subscription-plan-container {
     width: 100%;
+    
   }
 
   .main-pricing h3 {
@@ -666,6 +673,97 @@
     width: 170.157px;
     height: 45px;
     padding: 20px 20px;
+  }
+
+  .pricingTable .pricingTable-signup-premium .try-now-btn-premium {
+    width: 180px;
+    height: 45px;
+    padding: 20px 25px;
+    margin-top: 100px;
+  }
+
+  .pricingTable .pricingTable-signup-pro .try-now-btn-pro {
+    margin-top: 10px;
+    width: 180px;
+    height: 45px;
+    padding: 20px 25px;
+  }
+
+  .pricingTable .pricingTable-signup-enterprise .try-now-btn-enterprise {
+    margin-top: 6px;
+    width: 180px;
+    height: 45px;
+    padding: 20px 25px;
+  }
+
+  .vector-ellipse-1 {
+    width: 100%;
+    height: 143px;
+  }
+
+  .vector-ellipse-2 {
+    width: 100%;
+    height: 143px;
+    margin-top: 40px;
+  }
+}
+
+@media only screen and (min-width: 1401px) {
+  .container {
+    max-width: 1454px;
+  }
+
+
+ 
+  .subscription-plan-container {
+  width: 100%;  
+ 
+   }
+
+  .main-pricing h3 {
+    width: 1117px;
+    height: 158px;
+    margin-left: 150px;
+  }
+
+  .main-pricing p {
+    height: 70px;
+    width: 732px;
+    margin-left: 350px;
+  }
+
+  .toggle-wrapper {
+    width: 213px;
+    height: 58px;
+    margin-left: 620px;
+  }
+  .col-md-3 {
+    flex: 0 0 auto;
+    width: 23%;
+    margin-left: 27px;
+  }
+
+  .pricingTable .pricing-content li {
+    margin: 0px 0px 19px;
+  }
+
+  .pricingTable .pricing-content-second-child li {
+    margin: 0 0 11px;
+  }
+
+  .pricingTable .pricing-content-third-child li {
+    margin: 0px 0px 14px;
+  }
+
+  .pricingTable .pricing-content-fourth-child li {
+    margin: 0px 0px 13px;
+  }
+
+  .pricingTable .pricingTable-signup .try-now-btn {
+    width: 170.157px;
+    height: 45px;
+    padding: 20px 20px;
+    border: none;
   }
 
   .pricingTable .pricingTable-signup-premium .try-now-btn-premium {

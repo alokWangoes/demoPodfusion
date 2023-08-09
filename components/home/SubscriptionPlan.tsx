@@ -66,7 +66,7 @@ const SubscriptionPlan = () => {
   ];
 
   return (
-    <div className="subscription-plan-container">
+    <div className="subscription-plan-container" id="subscribe-wrapper">
       <div className="container">
         <div className="row main-pricing">
           <div className="col-md-12 col-xl-12 col-sm-12">
@@ -218,12 +218,6 @@ const SubscriptionPlan = () => {
                 </div>
               </div>
             </div>
-          </div>
-          <div className="vector-ellipse-2">
-            <img src="pricing-vector-ellipse.svg" />
-          </div>
-          <div className="vector-ellipse-1">
-            <img src="pricing-vector-ellipse.svg" />
           </div>
         </div>
       </div>
