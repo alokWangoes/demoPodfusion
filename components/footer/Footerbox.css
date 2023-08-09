@@ -334,6 +334,72 @@
   .footer-vector-bg {
     top: 45px;
   }
+  .email-input-wrapper .input-tab {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 9px;
+    height: 50px;
+    margin-top: 10px;
+    margin-left: 82.53px;    
+  }
+
+
+  .email-title-heading {
+  display: flex;
+  color: #3d318a;
+  font-family: Roboto Serif;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 412px;
+  line-height: normal;
+  margin-top: 14px;
+  margin-left: 83px;
+}
+
+.input-tab .email-input {
+  color: #3d318a;
+  font-family: Roboto Flex;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 330;
+  line-height: normal;
+  background: linear-gradient(15deg, #fff 49.84%, #fff 100%);
+  display: flex;
+  width: 427px;
+  height: 50px;
+  padding: 3px 0px 3px 20px;
+  align-items: center;
+  gap: 247px;
+  border-radius: 17px;
+  position: absolute;
+  float: left;
+}
+
+.input-tab .btn-send {
+  position: relative;
+  float: right;
+  display: flex;
+  height: 48px;
+  width: 179px;
+  margin-left: 247px;
+  padding: 20px 25px;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  flex: 1 0 0;
+  border-radius: 15px;
+  font-size: 21px;
+  font-weight: 400;
+ 
+}
+
+.error-msg{
+  font-family: Roboto Serif;
+  margin-left: 81px;
+  margin-top: 7px;
+}
+
 }
 
 @media only screen and (min-width: 1401px) {
