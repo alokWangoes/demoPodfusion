@@ -3,10 +3,9 @@ import "./Subscribe.css";
 const Subscribe = () => {
   return (
     <>
-        
-        <div className="text-center plan">
-          <Plan />
-        </div>
+      <div className="text-center plan">
+        <Plan />
+      </div>
     </>
   );
 };

@@ -114,7 +114,12 @@
   height: 642px;
   text-align: center;
   border-radius: 105px;
-  background: linear-gradient(2deg, rgba(30, 30, 30, 0.40) 0%, #3D318A 0%, #FFF 140%);
+  background: linear-gradient(
+    2deg,
+    rgba(30, 30, 30, 0.4) 0%,
+    #3d318a 0%,
+    #fff 140%
+  );
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
   overflow: hidden;
   border-width: 3px;
@@ -406,6 +411,18 @@
   line-height: normal;
 }
 
+.pricingTable .pricingTable-signup .try-now-btn:hover {
+  background: var(
+    --primary-hover,
+    linear-gradient(
+      213deg,
+      rgba(255, 255, 255, 0.4) 18.24%,
+      rgba(255, 0, 184, 0.5) 76.8%
+    )
+  );
+  color: #000;
+}
+
 .pricingTable .pricingTable-signup-premium .try-now-btn-premium {
   display: flex;
   margin: auto;
@@ -470,6 +487,35 @@
   line-height: normal;
 }
 
+.pricingTable .pricingTable-signup-premium .try-now-btn-premium:hover {
+  background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.4) 0%,
+      rgba(255, 255, 255, 0.4) 100%
+    ),
+    linear-gradient(
+      270deg,
+      rgba(255, 255, 255, 0.15) 0%,
+      rgba(255, 0, 31, 0.15) 100%
+    ),
+    linear-gradient(
+      231deg,
+      rgba(255, 255, 255, 0.15) 0%,
+      rgba(255, 0, 184, 0.15) 100%
+    ),
+    linear-gradient(
+      136deg,
+      rgba(255, 255, 255, 0.15) 0%,
+      rgba(143, 0, 255, 0.15) 100%
+    ),
+    linear-gradient(
+      127deg,
+      rgba(255, 255, 255, 0.15) 0%,
+      rgba(36, 0, 255, 0.15) 100%
+    ),
+    rgba(255, 0, 77, 0.6);
+}
+
 .pricingTable .pricingTable-signup-pro .try-now-btn-pro {
   display: flex;
   margin: auto;
@@ -532,6 +578,34 @@
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+}
+.pricingTable .pricingTable-signup-pro .try-now-btn-pro:hover {
+  background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.4) 0%,
+      rgba(255, 255, 255, 0.4) 100%
+    ),
+    linear-gradient(
+      270deg,
+      rgba(255, 255, 255, 0.15) 0%,
+      rgba(255, 0, 31, 0.15) 100%
+    ),
+    linear-gradient(
+      231deg,
+      rgba(255, 255, 255, 0.15) 0%,
+      rgba(255, 0, 184, 0.15) 100%
+    ),
+    linear-gradient(
+      136deg,
+      rgba(255, 255, 255, 0.15) 0%,
+      rgba(143, 0, 255, 0.15) 100%
+    ),
+    linear-gradient(
+      127deg,
+      rgba(255, 255, 255, 0.15) 0%,
+      rgba(36, 0, 255, 0.15) 100%
+    ),
+    rgba(255, 0, 77, 0.6);
 }
 
 .pricingTable .pricingTable-signup-enterprise .try-now-btn-enterprise {
@@ -598,6 +672,35 @@
     1px 1px 2px 0px rgba(0, 0, 0, 0.48);
 }
 
+.pricingTable .pricingTable-signup-enterprise .try-now-btn-enterprise:hover {
+  background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.4) 0%,
+      rgba(255, 255, 255, 0.4) 100%
+    ),
+    linear-gradient(
+      270deg,
+      rgba(255, 255, 255, 0.15) 0%,
+      rgba(255, 0, 31, 0.15) 100%
+    ),
+    linear-gradient(
+      231deg,
+      rgba(255, 255, 255, 0.15) 0%,
+      rgba(255, 0, 184, 0.15) 100%
+    ),
+    linear-gradient(
+      136deg,
+      rgba(255, 255, 255, 0.15) 0%,
+      rgba(143, 0, 255, 0.15) 100%
+    ),
+    linear-gradient(
+      127deg,
+      rgba(255, 255, 255, 0.15) 0%,
+      rgba(36, 0, 255, 0.15) 100%
+    ),
+    rgba(255, 0, 77, 0.6);
+}
+
 .vector-ellipse-1 {
   transform: scaleX(-1);
   width: 1454px;
@@ -641,7 +744,6 @@
   }
   .subscription-plan-container {
     width: 100%;
-    
   }
 
   .main-pricing h3 {
@@ -713,12 +815,9 @@
     max-width: 1454px;
   }
 
-
- 
   .subscription-plan-container {
-  width: 100%;  
- 
-   }
+    width: 100%;
+  }
 
   .main-pricing h3 {
     width: 1117px;
