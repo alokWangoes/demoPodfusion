@@ -136,6 +136,13 @@
   line-height: normal;
 }
 
+.footer-links-1  li:hover{
+  text-decoration: underline #a884be;
+  color: #a884be;
+  cursor: pointer;
+
+}
+
 .footer-links-2 {
   display: inline-flex;
   flex-direction: column;
@@ -145,6 +152,12 @@
 
   width: 75px;
   height: 162px;
+}
+.footer-links-2 li:hover{
+  text-decoration: underline #a884be;
+  color: #a884be;
+  cursor: pointer;
+
 }
 
 .footer-links-2 li {

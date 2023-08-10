@@ -46,13 +46,16 @@ h3 img {
   width: 381.5px;
   height: 689px;
   border-radius: 30px 30px 30px 30px;
-  background: linear-gradient(
+  /* background: linear-gradient(
     180deg,
     #eac0cd 50%,
     rgba(245, 226, 232, 1) 90%,
     rgba(255, 255, 255, 1) 100%
-  );
+  ); */
+
+  background: linear-gradient( 180deg, #eac0cd 50%, #e9dadf 90%, rgb(214 200 221) 100% );
 }
+
 
 .block-section:hover {
   background: #eac0cd;
@@ -175,7 +178,6 @@ h3 img {
   right: 103px;
   top: 38px;
   flex-shrink: 0;
-
   background: url("../../public/img-2.svg"), lightgray 50% / cover no-repeat;
   border-radius: 300px;
   box-shadow: 5px 4px 4px 0px rgba(0, 0, 0, 0.2);
@@ -202,7 +204,9 @@ h3 img {
   margin-left: 100px;
   border: none;
   border-radius: 15px;
-  background: linear-gradient(#8981b8, #ad7fb1cc, #d69dae00);
+  /* background: linear-gradient(#8981b8, #ad7fb1cc, #d69dae00); */
+  background: linear-gradient(#220aa8, #ad7fb1cc, #a8214aba);
+  /* background-image: linear-gradient(to bottom, #8981b8, #9282bc, #9c83bf, #a684c1, #b085c3, #b588c4, #ba8cc4, #bf8fc5, #c096c5, #c19cc6, #c2a3c6, #c3a9c6); */
 
   /* Drop shadow */
   box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.5),
@@ -210,12 +214,7 @@ h3 img {
 }
 
 .main-section-button:hover {
-  background: linear-gradient(
-    60deg,
-    #d6a2f8 0.77%,
-    #cf59ae 2.5%,
-    rgba(218, 203, 227, 0.2) 90.73%
-  );
+  background: linear-gradient( 60deg, #d6a2f8 0.77%, #cf59ae 2.5%, rgba(106, 22, 119, 0.75) 90.73% );
   color: black;
 }
 

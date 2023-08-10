@@ -65,9 +65,8 @@
   padding: 20px 25px;
   border-radius: 15px;
   border: none;
-  background: linear-gradient(#8981b8, #ad7fb1cc, #d69dae00);
-  box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.5),
-    1px 1px 2px 0px rgba(0, 0, 0, 0.48);
+  /* background: linear-gradient(#8981b8, #ad7fb1cc, #d69dae00); */
+  background-image: linear-gradient(to bottom, #8181b8, #8e85b9, #9989ba, #a48dbb, #ae91bc, #b693bc, #bd96bb, #c499bb, #cb9ab9, #d19cb6, #d69eb4, #dba0b1);   
   color: #fff;
   font-family: Aclonica;
   font-size: 21px;

@@ -167,7 +167,6 @@ const SubscriptionPlan = () => {
                   </li>
                   <li>24h support</li>
                 </ul>
-
                 <div className="pricingTable-signup-enterprise">
                   <button className="try-now-btn-enterprise">Try Now</button>
                 </div>
