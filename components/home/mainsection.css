@@ -31,18 +31,22 @@ h3 img {
 
 .col-md-4 .col-xl-4 .col-sm-12 {
   display: flex;
-  width: 374.273px;
+  width: 392.273px;
   height: 659px;
   flex-direction: column;
   align-items: flex-start;
   flex-shrink: 0;
 }
 
+.col-md-4 .col-xl-4 .col-sm-12:hover {
+  transform: scale(1.1);
+}
+
 .block-section {
-  width: 374.273px;
+  width: 381.5px;
   height: 418px;
   border-radius: 30px 30px 0px 0px;
-  margin-left: 23px;
+  /* margin-left: 23px; */
 }
 
 .block-content {
@@ -54,8 +58,8 @@ h3 img {
   );
   padding: 30px 31px;
   border-radius: 0px 0px 30px 30px;
-  width: 374.273px;
-  margin-left: 23px;
+  width: 381.5px;
+  /* margin-left: 23px; */
 
   height: 241px;
   display: flex;
@@ -71,10 +75,13 @@ h3 img {
   font-weight: bold;
 }
 .block-content p {
-  font-family: "Roboto Serif";
   color: #52459b;
-  font-size: 20px;
   text-align: center;
+  font-family: Roboto Serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 
 .bg-image {
@@ -181,18 +188,61 @@ h3 img {
   font-weight: 400;
   line-height: normal;
   margin-left: 100px;
-
+  border: none;
   border-radius: 15px;
-  background: linear-gradient(
-    180deg,
-    #8981b8 45.24%,
-    rgba(173, 127, 177, 0.8) 61.32%,
-    rgba(214, 157, 174, 0) 96.36%
-  );
+  background: linear-gradient(#8981b8, #ad7fb1cc, #d69dae00);
 
   /* Drop shadow */
   box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.5),
     1px 1px 2px 0px rgba(0, 0, 0, 0.48);
+}
+
+.main-section-button:hover {
+  background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.4) 0%,
+      rgba(255, 255, 255, 0.4) 100%
+    ),
+    linear-gradient(
+      270deg,
+      rgba(255, 255, 255, 0.15) 0%,
+      rgba(255, 0, 31, 0.15) 100%
+    ),
+    linear-gradient(
+      231deg,
+      rgba(255, 255, 255, 0.15) 0%,
+      rgba(255, 0, 184, 0.15) 100%
+    ),
+    linear-gradient(
+      136deg,
+      rgba(255, 255, 255, 0.15) 0%,
+      rgba(143, 0, 255, 0.15) 100%
+    ),
+    linear-gradient(
+      127deg,
+      rgba(255, 255, 255, 0.15) 0%,
+      rgba(36, 0, 255, 0.15) 100%
+    ),
+    rgba(255, 0, 77, 0.6);
+  color: black;
+}
+
+.main-section-button:active {
+  color: #000;
+  background: var(
+    --primary-clicked,
+    linear-gradient(
+      206deg,
+      rgba(212, 138, 223, 0.7) 0%,
+      rgba(212, 138, 223, 0.7) 23.43%,
+      rgba(75, 63, 146, 0.7) 73.32%
+    ),
+    linear-gradient(
+      233deg,
+      rgba(227, 200, 208, 0.7) 0%,
+      rgba(255, 76, 130, 0) 100%
+    )
+  );
 }
 
 @media (min-width: 1200px) and (max-width: 1400px) {
@@ -206,23 +256,33 @@ h3 img {
 
   .col-md-4 .col-xl-4 .col-sm-12 {
     flex: 0 0 auto;
-    width: 30.333333% !important;
-    margin-left: 28px !important;
+    width: 22.333333%;
+    /* margin-left: 28px ; */
+  }
+
+  .col-md-4 .col-xl-4 .col-sm-12:hover {
+    transform: scale(1.1);
   }
 
   .block-section {
-    width: 340.273px;
+    width: 381.5px;
     height: 377px;
-    margin-left: 23px;
+    /* margin-left: 23px; */
   }
 
   .block-content {
-    width: 340.273px;
-    margin-left: 23px;
+    width: 381.5px;
+    /* margin-left: 23px; */
   }
 
   .block-content p {
-    font-size: 18px;
+    color: #52459b;
+    text-align: center;
+    font-family: Roboto Serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
   }
 
   .main-section-body {
@@ -272,8 +332,12 @@ h3 img {
 
   .col-xl-4 {
     flex: 0 0 auto;
-    width: 21.333333%;
+    width: 22.333333%;
     margin-left: 101px;
+  }
+
+  .col-xl-4:hover {
+    transform: scale(1.1);
   }
 
   .main h3 {
@@ -289,19 +353,28 @@ h3 img {
   }
 
   .block-section {
-    width: 374.273px;
+    width: 381.5px;
     height: 377px;
     /* margin-left: 40px; */
   }
 
   .block-content {
-    width: 374.273px;
-    margin-top: 40px;
+    width: 381.5px;
+    margin-top: 46px;
     /* margin-left: 40px; */
   }
 
   .block-content p {
-    font-size: 18px;
+    width: 312px;
+    padding: 0px 30px;
+    color: #52459b;
+    text-align: center;
+    font-family: Roboto Serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    align-self: stretch;
   }
 
   .main-section-body {
