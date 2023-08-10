@@ -37,28 +37,6 @@
   line-height: normal;
 }
 
-.subscription-card-inner-wrapper-best-seller {
-  width: 336px;
-  height: 642px;
-  border-radius: 130px;
-  background: linear-gradient(
-    2deg,
-    rgba(30, 30, 30, 0.4) 2.85%,
-    #3d318a 9.12%,
-    #fff 100%
-  );
-}
-
-.subscription-card-contents-best-seller {
-  display: inline-flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 30px;
-  position: relative;
-  top: 42px;
-  left: 88px;
-}
-
 .pricing-wrapper {
   /* width: 1404px; */
   height: 607px;
@@ -66,7 +44,7 @@
   margin-top: 59px;
 }
 
-.toggle-wrapper {
+/* .toggle-wrapper {
   display: flex;
   width: 213px;
   height: 58px;
@@ -108,7 +86,117 @@
   margin-left: 116px;
   border: 1px solid rgba(255, 255, 255, 0.3);
   background: linear-gradient(150deg, #5972c9 15.84%, #e4a9ff 100%);
+} */
+
+/*Toggle*/
+
+.switch-wrapper {
+  display: flex;
+  width: 213px;
+  height: 60px;
+  justify-content: center;
+  align-items: center;
+  gap: 47px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  background: linear-gradient(
+    221deg,
+    rgba(114, 140, 229, 0.74) 0%,
+    rgba(228, 169, 255, 0.79) 100%
+  );
+  margin-top: 35px;
+  margin-left: 620px;
 }
+
+.switch-wrapper [type="radio"] {
+  position: absolute;
+  left: -9999px;
+}
+
+.switch-wrapper [type="radio"]:checked#monthly ~ label[for="monthly"] {
+  width: 107px;
+  height: 59px;
+  flex-shrink: 0;
+  /* position: relative;
+  right: 12px; */
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  background: linear-gradient(150deg, #5972c9 15.84%, #e4a9ff 100%);
+}
+
+.switch-wrapper [type="radio"]:checked#yearly ~ label[for="yearly"] {
+  width: 107px;
+  height: 59px;
+  flex-shrink: 0;
+  /* position: relative;
+  left: 12px; */
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  background: linear-gradient(150deg, #5972c9 15.84%, #e4a9ff 100%);
+}
+
+.switch-wrapper [type="radio"]:checked#monthly ~ label[for="monthly"]:hover,
+.switch-wrapper [type="radio"]:checked#yearly ~ label[for="yearly"]:hover {
+  cursor: pointer;
+}
+
+.switch-wrapper
+  [type="radio"]:checked#monthly
+  + label[for="yearly"]
+  ~ .highlighter {
+  display: none;
+}
+
+.switch-wrapper
+  [type="radio"]:checked#yearly
+  + label[for="monthly"]
+  ~ .highlighter {
+  transform: translateX(100%);
+}
+
+.switch-wrapper
+  [type="radio"]:checked#monthly
+  ~ label[for="monthly"]
+  .switch-wrapper
+  label {
+  display: none;
+}
+.switch-wrapper .monthly-label {
+  color: #fff;
+  font-family: Aclonica;
+  font-size: 12px;
+  font-style: normal;
+  padding-left: 40px;
+  font-weight: 400;
+  line-height: normal;
+  transition: color 0.25s ease-in-out;
+}
+
+.switch-wrapper .yearly-label {
+  color: #fff;
+  font-family: Aclonica;
+  font-size: 12px;
+  font-style: normal;
+  padding-right: 40px;
+  font-weight: 400;
+  line-height: normal;
+  transition: color 0.25s ease-in-out;
+}
+
+.switch-wrapper .highlighter {
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  width: calc(50% - 4px);
+  height: calc(100% - 8px);
+  display: none;
+  border-radius: 30px;
+  background: darkgreen;
+  transition: transform 0.25s ease-in-out;
+}
+
+/*toggle end*/
 
 .pricingTable {
   height: 642px;
@@ -122,13 +210,18 @@
   );
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
   overflow: hidden;
-  border-width: 3px;
-  border-style: solid;
-  border-color: #4b3f92;
+  border: 3px solid rgba(75, 63, 146, 1);
 }
 
 #pro-table {
   border-color: #fff !important ;
+  background: linear-gradient(
+    2deg,
+    rgba(30, 30, 30, 0.4) 1.07%,
+    #5972c9 0.24%,
+    #9790c0 100.58%,
+    #fff 100%
+  );
 }
 
 .bg-ellipse {
@@ -257,14 +350,18 @@
   line-height: normal;
   float: right;
   padding: 10px 11px;
+  fill: #fff;
+  stroke-width: 2px;
+  stroke: #fff;
   position: relative;
-  left: 37px;
+  left: 30px;
+  border-radius: 0px 20px;
 }
 
 .pricingTable .pricingTable-header .price-value-pro .line-1 hr {
   height: 1px;
   opacity: 1;
-  width: 223px;
+  width: 240px;
   color: #fac18c;
 }
 
@@ -423,6 +520,21 @@
   color: #000;
 }
 
+.pricingTable .pricingTable-signup .try-now-btn:active {
+  color: #000;
+  background: linear-gradient(
+      206deg,
+      rgba(212, 138, 223, 0.7) 0%,
+      rgba(212, 138, 223, 0.7) 23.43%,
+      rgba(75, 63, 146, 0.7) 73.32%
+    ),
+    linear-gradient(
+      233deg,
+      rgba(227, 200, 208, 0.7) 0%,
+      rgba(255, 76, 130, 0) 100%
+    );
+}
+
 .pricingTable .pricingTable-signup-premium .try-now-btn-premium {
   display: flex;
   margin: auto;
@@ -488,32 +600,24 @@
 }
 
 .pricingTable .pricingTable-signup-premium .try-now-btn-premium:hover {
-  background: linear-gradient(
-      0deg,
-      rgba(255, 255, 255, 0.4) 0%,
-      rgba(255, 255, 255, 0.4) 100%
-    ),
-    linear-gradient(
-      270deg,
-      rgba(255, 255, 255, 0.15) 0%,
-      rgba(255, 0, 31, 0.15) 100%
-    ),
-    linear-gradient(
-      231deg,
-      rgba(255, 255, 255, 0.15) 0%,
-      rgba(255, 0, 184, 0.15) 100%
-    ),
-    linear-gradient(
-      136deg,
-      rgba(255, 255, 255, 0.15) 0%,
-      rgba(143, 0, 255, 0.15) 100%
-    ),
-    linear-gradient(
-      127deg,
-      rgba(255, 255, 255, 0.15) 0%,
-      rgba(36, 0, 255, 0.15) 100%
-    ),
-    rgba(255, 0, 77, 0.6);
+  background-image: linear-gradient(
+    30deg,
+    #cf59ae,
+    #d168bd,
+    #d376cc,
+    #d484da,
+    #d591e7,
+    #d59beb,
+    #d6a4ef,
+    #d7adf3,
+    #d8b5ef,
+    #d9bceb,
+    #dac4e7,
+    #dacbe3
+  );
+}
+.pricingTable .pricingTable-signup-premium .try-now-btn-premium:active {
+  background: linear-gradient(180deg, #ff9dbb 55%, rgba(255, 157, 187, 0) 120%);
 }
 
 .pricingTable .pricingTable-signup-pro .try-now-btn-pro {
@@ -580,32 +684,25 @@
   line-height: normal;
 }
 .pricingTable .pricingTable-signup-pro .try-now-btn-pro:hover {
-  background: linear-gradient(
-      0deg,
-      rgba(255, 255, 255, 0.4) 0%,
-      rgba(255, 255, 255, 0.4) 100%
-    ),
-    linear-gradient(
-      270deg,
-      rgba(255, 255, 255, 0.15) 0%,
-      rgba(255, 0, 31, 0.15) 100%
-    ),
-    linear-gradient(
-      231deg,
-      rgba(255, 255, 255, 0.15) 0%,
-      rgba(255, 0, 184, 0.15) 100%
-    ),
-    linear-gradient(
-      136deg,
-      rgba(255, 255, 255, 0.15) 0%,
-      rgba(143, 0, 255, 0.15) 100%
-    ),
-    linear-gradient(
-      127deg,
-      rgba(255, 255, 255, 0.15) 0%,
-      rgba(36, 0, 255, 0.15) 100%
-    ),
-    rgba(255, 0, 77, 0.6);
+  background-image: linear-gradient(
+    30deg,
+    #cf59ae,
+    #d168bd,
+    #d376cc,
+    #d484da,
+    #d591e7,
+    #d59beb,
+    #d6a4ef,
+    #d7adf3,
+    #d8b5ef,
+    #d9bceb,
+    #dac4e7,
+    #dacbe3
+  );
+}
+
+.pricingTable .pricingTable-signup-pro .try-now-btn-pro:active {
+  background: linear-gradient(180deg, #ff9dbb 55%, rgba(255, 157, 187, 0) 120%);
 }
 
 .pricingTable .pricingTable-signup-enterprise .try-now-btn-enterprise {
@@ -673,49 +770,25 @@
 }
 
 .pricingTable .pricingTable-signup-enterprise .try-now-btn-enterprise:hover {
-  background: linear-gradient(
-      0deg,
-      rgba(255, 255, 255, 0.4) 0%,
-      rgba(255, 255, 255, 0.4) 100%
-    ),
-    linear-gradient(
-      270deg,
-      rgba(255, 255, 255, 0.15) 0%,
-      rgba(255, 0, 31, 0.15) 100%
-    ),
-    linear-gradient(
-      231deg,
-      rgba(255, 255, 255, 0.15) 0%,
-      rgba(255, 0, 184, 0.15) 100%
-    ),
-    linear-gradient(
-      136deg,
-      rgba(255, 255, 255, 0.15) 0%,
-      rgba(143, 0, 255, 0.15) 100%
-    ),
-    linear-gradient(
-      127deg,
-      rgba(255, 255, 255, 0.15) 0%,
-      rgba(36, 0, 255, 0.15) 100%
-    ),
-    rgba(255, 0, 77, 0.6);
+  background-image: linear-gradient(
+    30deg,
+    #cf59ae,
+    #d168bd,
+    #d376cc,
+    #d484da,
+    #d591e7,
+    #d59beb,
+    #d6a4ef,
+    #d7adf3,
+    #d8b5ef,
+    #d9bceb,
+    #dac4e7,
+    #dacbe3
+  );
 }
 
-.vector-ellipse-1 {
-  transform: scaleX(-1);
-  width: 1454px;
-  height: 216px;
-  flex-shrink: 0;
-  z-index: 999;
-  position: relative;
-  bottom: 200px;
-}
-
-.vector-ellipse-2 {
-  width: 1463px;
-  height: 216px;
-  flex-shrink: 0;
-  position: relative;
+.pricingTable .pricingTable-signup-enterprise .try-now-btn-enterprise:active {
+  background: linear-gradient(180deg, #ff9dbb 55%, rgba(255, 157, 187, 0) 120%);
 }
 
 /* @media only screen and (max-width: 990px) {
@@ -797,17 +870,6 @@
     height: 45px;
     padding: 20px 25px;
   }
-
-  .vector-ellipse-1 {
-    width: 100%;
-    height: 143px;
-  }
-
-  .vector-ellipse-2 {
-    width: 100%;
-    height: 143px;
-    margin-top: 40px;
-  }
 }
 
 @media only screen and (min-width: 1401px) {
@@ -884,16 +946,5 @@
     width: 180px;
     height: 45px;
     padding: 20px 25px;
-  }
-
-  .vector-ellipse-1 {
-    width: 100%;
-    height: 143px;
-  }
-
-  .vector-ellipse-2 {
-    width: 100%;
-    height: 143px;
-    margin-top: 40px;
   }
 }

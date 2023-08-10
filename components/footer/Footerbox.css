@@ -40,6 +40,7 @@
   font-family: Roboto Serif;
   font-size: 20px;
   font-style: normal;
+  letter-spacing: 1px;
   font-weight: 400;
   line-height: normal;
 }
@@ -128,7 +129,7 @@
   color: #3d318a;
   padding: 16px;
 
-  font-family: Roboto Serif;
+  font-family: ZCOOL XiaoWei;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
@@ -149,7 +150,7 @@
 .footer-links-2 li {
   color: #3d318a;
   padding: 16px;
-  font-family: Roboto Serif;
+  font-family: ZCOOL XiaoWei;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
@@ -261,6 +262,19 @@
     1px 1px 2px 0px rgba(0, 0, 0, 0.48);
 }
 
+.input-tab .btn-send:hover {
+  background: linear-gradient(
+    220deg,
+    #d6a2f8 0.77%,
+    #cf59ae 99.5%,
+    rgba(218, 203, 227, 1) 100.73%
+  );
+}
+.input-tab .btn-send:active {
+  background: linear-gradient(180deg, #ff9dbb 70%, rgba(255, 157, 187, 0) 110%);
+  color: #000;
+}
+
 .footer-vector-bg {
   transform: scaleX(-1);
   position: relative;
@@ -269,7 +283,7 @@
   flex-shrink: 0;
   top: 25px;
 }
-.error-msg{
+.error-msg {
   font-family: Roboto Serif;
   margin-left: 95px;
   margin-top: 7px;
@@ -347,65 +361,62 @@
     gap: 9px;
     height: 50px;
     margin-top: 10px;
-    margin-left: 82.53px;    
+    margin-left: 82.53px;
   }
 
-
   .email-title-heading {
-  display: flex;
-  color: #3d318a;
-  font-family: Roboto Serif;
-  font-size: 17px;
-  font-style: normal;
-  font-weight: 412px;
-  line-height: normal;
-  margin-top: 14px;
-  margin-left: 83px;
-}
+    display: flex;
+    color: #3d318a;
+    font-family: Roboto Serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 412px;
+    line-height: normal;
+    margin-top: 14px;
+    margin-left: 83px;
+  }
 
-.input-tab .email-input {
-  color: #3d318a;
-  font-family: Roboto Flex;
-  font-size: 17px;
-  font-style: normal;
-  font-weight: 330;
-  line-height: normal;
-  background: linear-gradient(15deg, #fff 49.84%, #fff 100%);
-  display: flex;
-  width: 427px;
-  height: 50px;
-  padding: 3px 0px 3px 20px;
-  align-items: center;
-  gap: 247px;
-  border-radius: 17px;
-  position: absolute;
-  float: left;
-}
+  .input-tab .email-input {
+    color: #3d318a;
+    font-family: Roboto Flex;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 330;
+    line-height: normal;
+    background: linear-gradient(15deg, #fff 49.84%, #fff 100%);
+    display: flex;
+    width: 427px;
+    height: 50px;
+    padding: 3px 0px 3px 20px;
+    align-items: center;
+    gap: 247px;
+    border-radius: 17px;
+    position: absolute;
+    float: left;
+  }
 
-.input-tab .btn-send {
-  position: relative;
-  float: right;
-  display: flex;
-  height: 48px;
-  width: 179px;
-  margin-left: 247px;
-  padding: 20px 25px;
-  justify-content: center;
-  align-items: center;
-  gap: 25px;
-  flex: 1 0 0;
-  border-radius: 15px;
-  font-size: 21px;
-  font-weight: 400;
- 
-}
+  .input-tab .btn-send {
+    position: relative;
+    float: right;
+    display: flex;
+    height: 48px;
+    width: 179px;
+    margin-left: 247px;
+    padding: 20px 25px;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    flex: 1 0 0;
+    border-radius: 15px;
+    font-size: 21px;
+    font-weight: 400;
+  }
 
-.error-msg{
-  font-family: Roboto Serif;
-  margin-left: 81px;
-  margin-top: 7px;
-}
-
+  .error-msg {
+    font-family: Roboto Serif;
+    margin-left: 81px;
+    margin-top: 7px;
+  }
 }
 
 @media only screen and (min-width: 1401px) {
@@ -449,7 +460,7 @@
 
   .footer-links-1 {
     margin-left: 33px;
-    margin-top: 28px;
+    margin-top: 25px;
     width: 136px;
     height: 208px;
   }

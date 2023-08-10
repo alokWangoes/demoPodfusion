@@ -13,7 +13,6 @@
   font-weight: 400;
   line-height: normal;
 }
-
 .banner-content h2 {
   height: 258px;
   width: 683px;
@@ -25,7 +24,6 @@
   font-weight: 400;
   line-height: normal;
 }
-
 .common-content {
   width: 578px;
   height: 140px;
@@ -33,22 +31,20 @@
   margin-top: 42px;
   color: #61569f;
   font-family: Roboto Serif;
+  letter-spacing: 1px;
   font-size: 30px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
 }
-
 .banner-content {
   z-index: 999;
 }
-
 .banner-image img {
   width: 563px;
   height: 717px;
   margin-left: 120px;
 }
-
 .banner-image {
   display: flex;
   justify-content: end;
@@ -60,7 +56,6 @@
   background-image: url("../../public/image/homepageBg.svg");
   background-repeat: no-repeat;
 }
-
 .banner-btn {
   width: 212px;
   height: 64px;
@@ -83,31 +78,11 @@
 .banner-btn:hover {
   color: #000;
   background: linear-gradient(
-      0deg,
-      rgba(255, 255, 255, 0.4) 0%,
-      rgba(255, 255, 255, 0.4) 100%
-    ),
-    linear-gradient(
-      270deg,
-      rgba(255, 255, 255, 0.15) 0%,
-      rgba(255, 0, 31, 0.15) 100%
-    ),
-    linear-gradient(
-      231deg,
-      rgba(255, 255, 255, 0.15) 0%,
-      rgba(255, 0, 184, 0.15) 100%
-    ),
-    linear-gradient(
-      136deg,
-      rgba(255, 255, 255, 0.15) 0%,
-      rgba(143, 0, 255, 0.15) 100%
-    ),
-    linear-gradient(
-      127deg,
-      rgba(255, 255, 255, 0.15) 0%,
-      rgba(36, 0, 255, 0.15) 100%
-    ),
-    rgba(255, 0, 77, 0.6);
+    60deg,
+    #d6a2f8 0.77%,
+    #cf59ae 2.5%,
+    rgba(218, 203, 227, 0.2) 90.73%
+  );
 }
 
 .banner-btn:active {

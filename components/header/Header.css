@@ -224,6 +224,20 @@ img {
     1px 1px 2px 0px rgba(0, 0, 0, 0.48);
 }
 
+.button:hover {
+  background: linear-gradient(
+    60deg,
+    #d6a2f8 1.77%,
+    #cf59ae 5.5%,
+    rgba(218, 203, 227, 0.2) 110.73%
+  );
+}
+
+.button:active {
+  background: linear-gradient(180deg, #ff9dbb 70%, rgba(255, 157, 187, 0) 110%);
+  color: #000;
+}
+
 .social-icons img {
   width: 22px;
   margin-right: 5px;
@@ -267,8 +281,16 @@ ul {
 
 .bottom-wrp li a {
   color: #3d318a;
-  font-size: 16px;
-  font-family: "Libre Baskerville", serif;
+  font-family: ZCOOL XiaoWei;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.bottom-wrp li a:hover {
+  text-decoration: underline #a884be;
+  color: #a884be;
 }
 
 a {
@@ -277,11 +299,15 @@ a {
 
 a.button-primary {
   text-transform: uppercase;
-  text-decoration: underline;
+
   letter-spacing: 1.2px;
   color: #3d318a;
   font-family: "Aclonica", sans-serif !important;
   margin-left: 29px;
+}
+
+a.button-primary:hover {
+  text-shadow: 0px 2px rgba(5, 0, 0, 0.5);
 }
 
 .bottom-wrp li img {

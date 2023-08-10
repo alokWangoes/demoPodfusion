@@ -16,37 +16,37 @@ const Mainsection = () => {
             <div className="col-md-4 col-xl-4 col-sm-12">
               <div className="block-section">
                 <img src="./Frame-29.png" />
-              </div>
-              <div className="block-content">
-                <h3>Connect multiple providers together</h3>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur. Mauris mi etiam
-                  dignissim turpis integer gravida sed.
-                </p>
+                <div className="block-content">
+                  <h3>Connect multiple providers together</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur. Mauris mi etiam
+                    dignissim turpis integer gravida sed.
+                  </p>
+                </div>
               </div>
             </div>
             <div className="col-md-4 col-xl-4 col-sm-12">
               <div className="block-section">
                 <img src="./Frame 27.png" />
-              </div>
-              <div className="block-content">
-                <h3>Automate your print on demand</h3>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur. Urna eget lectus
-                  tempor massa rutrum pellentesque.
-                </p>
+                <div className="block-content">
+                  <h3>Automate your print on demand</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur. Urna eget lectus
+                    tempor massa rutrum pellentesque.
+                  </p>
+                </div>
               </div>
             </div>
             <div className="col-md-4 col-xl-4 col-sm-12">
               <div className="block-section">
                 <img src="./Frame 30.png" />
-              </div>
-              <div className="block-content">
-                <h3>Automate your print on demand</h3>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur. A donec mauris
-                  faucibus luctus mauris vitae orci.
-                </p>
+                <div className="block-content">
+                  <h3>Automate your print on demand</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur. A donec mauris
+                    faucibus luctus mauris vitae orci.
+                  </p>
+                </div>
               </div>
             </div>
           </div>
@@ -55,37 +55,37 @@ const Mainsection = () => {
             <div className="col-md-4 col-xl-4 col-sm-12">
               <div className="block-section">
                 <img src="./Frame 31.png" />
-              </div>
-              <div className="block-content">
-                <h3>Multiple print on demand providers</h3>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur. Fames magna amet
-                  mattis morbi sit nunc.
-                </p>
+                <div className="block-content">
+                  <h3>Multiple print on demand providers</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur. Fames magna amet
+                    mattis morbi sit nunc.
+                  </p>
+                </div>
               </div>
             </div>
             <div className="col-md-4 col-xl-4 col-sm-12">
               <div className="block-section">
                 <img src="./Frame 28.png" />
-              </div>
-              <div className="block-content">
-                <h3>Create your own automation flow</h3>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur. Fames magna amet
-                  mattis morbi sit nunc.
-                </p>
+                <div className="block-content">
+                  <h3>Create your own automation flow</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur. Fames magna amet
+                    mattis morbi sit nunc.
+                  </p>
+                </div>
               </div>
             </div>
             <div className="col-md-4 col-xl-4 col-sm-12">
               <div className="block-section">
                 <img src="./Frame 32.png" />
-              </div>
-              <div className="block-content">
-                <h3>Multiple print on demand providers</h3>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur. Fames magna amet
-                  mattis morbi sit nunc.
-                </p>
+                <div className="block-content">
+                  <h3>Multiple print on demand providers</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur. Fames magna amet
+                    mattis morbi sit nunc.
+                  </p>
+                </div>
               </div>
             </div>
           </div>

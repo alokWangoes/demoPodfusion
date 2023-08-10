@@ -1,70 +1,9 @@
 "use client";
-import React from "react";
+import React, { useState } from "react";
 import "./subscriptionPlan.css";
 
 const SubscriptionPlan = () => {
-  const subscriptionData = [
-    {
-      key: 0,
-      currency: "$",
-      price: 0,
-      period: "Monthly",
-      planType: "Free",
-      title1: "5 daily tasks ( Uplaod, Design, Product, etc...)",
-      title2: "No need to download anything, it runs completely in the cloud.",
-      title3:
-        "Lorem ipsum dolor sit amet consectetur. Consequat pellentesque magna et amet.",
-      title4: "",
-      title5: "",
-      title6: "",
-      title7: "",
-    },
-    {
-      key: 1,
-      currency: "$",
-      price: 9.99,
-      period: "Monthly",
-      planType: "Premium",
-      title1: "5 daily tasks ( Uplaod, Design, Product, etc...)",
-      title2: "Access to all marketplaces",
-      title3: "Basic support",
-      title4: "No need to download anything, it runs completely in the cloud.",
-      title5: "",
-      title6: "",
-      title7: "",
-    },
-    {
-      key: 2,
-      currency: "$",
-      price: 19.99,
-      period: "Monthly",
-      planType: "Pro",
-      title1: "150 Daily tasks ( Upload, Design,Product.. etc.)",
-      title2:
-        "In a post-apocalyptic world, a determined protagonist embarks on a perilous journey, battling enemies and forging unlikely alliances in search of sanctuary.",
-      title3: "3 days guarantee support",
-      title4: "Automatically check your listing for trademark infringement",
-      title5: "One more: Access to all marketplaces",
-      title6: "",
-      title7: "",
-    },
-    {
-      key: 3,
-      currency: "$",
-      price: 49.99,
-      period: "Monthly",
-      planType: "Enterprise",
-      title1: "Unlimited daily tasks",
-      title2:
-        "Boost productivity and quality with production automation's efficiency and precision",
-      title3: "API Access",
-      title4: "Automatically check your listing for trademark infringement",
-      title5: "One more: Access to all marketplaces",
-      title6: "No need to download anything, runs completely in the cloud",
-      title7: "24h support",
-    },
-  ];
-
+  const [yearToggle, setYearToggle] = useState<boolean>(false);
   return (
     <div className="subscription-plan-container" id="subscribe-wrapper">
       <div className="container">
@@ -77,9 +16,25 @@ const SubscriptionPlan = () => {
           </p>
         </div>
 
-        <div className="toggle-wrapper">
-          <span className="monthly">Monthly</span>
-          <span className="toggle-inner"></span>
+        <div className="switch-wrapper">
+          <input id="monthly" type="radio" name="switch" checked />
+          <input id="yearly" type="radio" name="switch" />
+          <label
+            htmlFor="monthly"
+            className="monthly-label"
+            id="month-label"
+            onClick={() => setYearToggle(true)}
+          >
+            {yearToggle === false && "Monthly"}
+          </label>
+          <label
+            htmlFor="yearly"
+            className="yearly-label"
+            onClick={() => setYearToggle(false)}
+          >
+            {yearToggle === true && "Yearly"}
+          </label>
+          <span className="highlighter"></span>
         </div>
       </div>
       <div className="container">
