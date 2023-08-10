@@ -13,6 +13,7 @@
   font-weight: 400;
   line-height: normal;
 }
+
 .banner-content h2 {
   height: 258px;
   width: 683px;
@@ -24,6 +25,7 @@
   font-weight: 400;
   line-height: normal;
 }
+
 .common-content {
   width: 662px;
   height: 140px;
@@ -36,14 +38,17 @@
   font-weight: 400;
   line-height: normal;
 }
+
 .banner-content {
   z-index: 999;
 }
+
 .banner-image img {
   width: 563px;
   height: 717px;
   margin-left: 120px;
 }
+
 .banner-image {
   display: flex;
   justify-content: end;
@@ -55,6 +60,7 @@
   background-image: url("../../public/image/homepageBg.svg");
   background-repeat: no-repeat;
 }
+
 .banner-btn {
   width: 212px;
   height: 64px;
@@ -63,12 +69,13 @@
   margin-left: 157px;
   padding: 20px 25px;
   border-radius: 15px;
-  background: linear-gradient(
+  /* background: linear-gradient(
     180deg,
     #8981b8 45.24%,
     rgba(173, 127, 177, 0.8) 61.32%,
     rgba(214, 157, 174, 0) 96.36%
-  );
+  ); */
+  background-image: linear-gradient(to bottom, #8181b8, #8a81b8, #9380b7, #9b80b6, #a37fb4, #ab81b2, #b383b1, #ba85af, #c38aae, #ca90ae, #d096ae, #d69dae);
   box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.5),
     1px 1px 2px 0px rgba(0, 0, 0, 0.48);
   color: #fff;
