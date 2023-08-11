@@ -214,8 +214,12 @@ h3 img {
 }
 
 .main-section-button:hover {
-  background: linear-gradient( 60deg, #d6a2f8 0.77%, #cf59ae 2.5%, rgba(106, 22, 119, 0.75) 90.73% );
-  color: black;
+  background: linear-gradient(
+    60deg,
+    #d6a2f8 0.77%,
+    #cf59ae 2.5%,
+    rgba(218, 203, 227, 0.2) 90.73%
+  );  color: black;
 }
 
 .main-section-button:active {
@@ -257,12 +261,7 @@ h3 img {
 
   .block-section {
     width: 381.5px;
-    background: linear-gradient(
-      180deg,
-      #eac0cd 50%,
-      rgba(245, 226, 232, 1) 90%,
-      rgba(255, 255, 255, 1) 100%
-    );
+    background: linear-gradient(180deg,#eac0cd 50%,#f5e2e8 90%,#e1cae6f7);
   }
 
   .block-content {
