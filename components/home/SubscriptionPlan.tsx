@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import "./subscriptionPlan.css";
 
 const SubscriptionPlan = () => {
-  const [yearToggle, setYearToggle] = useState<boolean>(false);
+  const [yearToggle, setYearToggle] = useState<boolean>(true);
   return (
     <div className="subscription-plan-container" id="subscribe-wrapper">
       <div className="container">
@@ -17,8 +17,8 @@ const SubscriptionPlan = () => {
         </div>
 
         <div className="switch-wrapper">
-          <input id="monthly" type="radio" name="switch" checked />
-          <input id="yearly" type="radio" name="switch" />
+          <input id="monthly" type="radio" name="switch" checked  />
+          <input id="yearly" type="radio" name="switch"  />
           <label
             htmlFor="monthly"
             className="monthly-label"

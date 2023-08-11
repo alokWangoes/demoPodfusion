@@ -118,8 +118,6 @@
   width: 107px;
   height: 59px;
   flex-shrink: 0;
-  /* position: relative;
-  right: 12px; */
   border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.3);
   background: linear-gradient(150deg, #5972c9 15.84%, #e4a9ff 100%);
@@ -129,8 +127,6 @@
   width: 107px;
   height: 59px;
   flex-shrink: 0;
-  /* position: relative;
-  left: 12px; */
   border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.3);
   background: linear-gradient(150deg, #5972c9 15.84%, #e4a9ff 100%);
@@ -145,7 +141,7 @@
   [type="radio"]:checked#monthly
   + label[for="yearly"]
   ~ .highlighter {
-  display: none;
+  transform: none;
 }
 
 .switch-wrapper
@@ -155,13 +151,13 @@
   transform: translateX(100%);
 }
 
-.switch-wrapper
+/* .switch-wrapper
   [type="radio"]:checked#monthly
   ~ label[for="monthly"]
   .switch-wrapper
   label {
   display: none;
-}
+} */
 .switch-wrapper .monthly-label {
   color: #fff;
   font-family: Aclonica;
