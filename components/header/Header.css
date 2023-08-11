@@ -282,7 +282,6 @@ a {
 
 a.button-primary {
   text-transform: uppercase;
-
   letter-spacing: 1.2px;
   color: #3d318a;
   font-family: "Aclonica", sans-serif !important;
@@ -293,7 +292,7 @@ a.button-primary {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  text-decoration-line: underline;
+  /* text-decoration-line: underline; */
   border-bottom: 1px solid #3D318A     ;
 
 }

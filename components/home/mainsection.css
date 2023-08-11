@@ -205,8 +205,8 @@ h3 img {
   border: none;
   border-radius: 15px;
   /* background: linear-gradient(#8981b8, #ad7fb1cc, #d69dae00); */
-  background: linear-gradient(#220aa8, #ad7fb1cc, #a8214aba);
-  /* background-image: linear-gradient(to bottom, #8981b8, #9282bc, #9c83bf, #a684c1, #b085c3, #b588c4, #ba8cc4, #bf8fc5, #c096c5, #c19cc6, #c2a3c6, #c3a9c6); */
+  /* background: linear-gradient(#220aa8, #ad7fb1cc, #a8214aba); */
+  background-image: linear-gradient(to bottom, #8981b8, #9282bc, #9c83bf, #a684c1, #b085c3, #b588c4, #ba8cc4, #bf8fc5, #c096c5, #c19cc6, #c2a3c6, #c3a9c6);
 
   /* Drop shadow */
   box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.5),
